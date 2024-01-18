@@ -1,0 +1,131 @@
+.payment-div{
+    display: flex;
+    float: right;
+    margin: 6%;
+    height: 2.5rem;
+    width: 10%;
+    gap: 17%;
+}
+.btn1{
+    background-color: #2e2ed4;
+    color: white;
+    border-radius: 6px;
+    font-size: 25px;
+}
+.btn2{
+    background-color: gray;
+    color: white;
+    border-radius: 6px;
+    font-size: 25px;
+}
+.payment-heading{
+    display: flex;
+    width: 100%;
+    padding: 2%;
+    font-size: 24px;
+    font-weight: 600;
+}
+.payment-Section{
+    display: flex;
+    width: 100%;
+    gap: 3%;
+    padding: 2%;
+}
+.payment-sec{
+    width: 70%;
+    /* height: 5rem; */
+    background-color: #c2c0c0;
+}
+.payment-sec h1{
+    padding: 1%;
+    font-size: 15px;
+}
+.payment-sec1{
+    display: flex;
+    width: 30%;
+    /* height: 5rem; */
+    background-color: #c2c0c0;
+    flex-direction: column;
+    align-items: end;
+    padding: 1%;
+}
+.payment-sec1 h1{
+    font-size: 15px;
+    padding: 1%;
+}
+.payment-section1{
+    display: flex;
+    width: 96%;
+    /* height: 5rem; */
+    background-color: #0249fe;
+    margin: 2%;
+    gap: 2%;
+    
+}
+.payment-section1 h1{
+    font-size: 20px;
+    color: white;
+    padding: 1.8%;
+}
+.payment-section1 .h11{
+    width: 64%;
+}
+.payment-section2{
+    display: flex;
+    width: 96%;
+    background-color: white;
+    gap: 4%;
+    margin: -2%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.payment-section2 h1{
+    font-size: 20px;
+    padding: 1.8%;
+}
+.payment-section2 .h11{
+    width: 62%;
+}
+.payment-section2 h2{
+    font-size: 17px;
+    padding: 1%;
+    margin-left: -1%;
+}
+.payment-section3{
+    display: flex;
+    width: 96%;
+    background-color: white;
+    gap: 4%;
+    margin: -2%;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.payment-section3 h1{
+    font-size: 20px;
+    padding: 2.8%;
+}
+.payment-section3 .h11{
+    width: 90%;
+    padding: 4%;
+    font-size: 29px;
+    font-weight: 600;
+    color: green;
+}
+.payment-section3 h2{
+    color: green;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 6%;
+}
+.payment-section4{
+    display: flex;
+    width: 96%;
+    align-items: center;
+    height: 5rem;
+    background-color: white;
+    margin-left: 2%;
+    border: 1px solid black;
+}
+.payment-section4 h1{
+    margin: 39%;
+}

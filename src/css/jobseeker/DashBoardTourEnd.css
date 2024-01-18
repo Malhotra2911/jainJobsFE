@@ -1,0 +1,60 @@
+.DashBoardTour-background_end{
+    /* background-color: rgb(180, 180, 180); */
+    /* position: fixed;
+    left: 2rem;
+    top: 0rem; */
+    width: 22%;
+    height: 25%;
+    position: fixed;
+    top: 6rem;
+    right: 3rem;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .middle-card-box_end{
+    width: 100%;
+    height: 100%;
+    font-weight: 500;
+    /* position: fixed; */
+    /* top:4rem;
+    right: 0rem; */
+  }
+  .middle-card-box-content_end{
+    background-color: white;
+    border-radius: 20px;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .middle-card-box-img_end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40%;
+  }
+  .middle-card-box-img_end >img {
+    width: 30px;
+   } 
+  .middle-card-box-content-left_end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle-card-box-content-right_end {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  .middle-card-box-content-right_end > p{
+    color: #F7701D;
+  }
+  .long-down-arrow-div_end{
+    height: 100%;
+  }
+  .middle-card-box-content-left_end > h3{
+    font-weight: 500;
+  } 

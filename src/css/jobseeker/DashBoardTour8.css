@@ -1,0 +1,16 @@
+.DashBoardTour-background8{
+    /* background-color: rgb(180, 180, 180); */
+    /* position: fixed;
+    left: 2rem;
+    top: 0rem; */
+    width: 40%;
+    /* height: 100vh; */
+    display: flex;
+    position: fixed;
+    border: none;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    left: 18.7rem;
+    top: 28.5rem;
+  }

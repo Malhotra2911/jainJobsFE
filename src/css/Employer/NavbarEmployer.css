@@ -1,0 +1,236 @@
+.Navbar_section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* background: #E9F4F0; */
+  background-image: linear-gradient(white, #e0f6f6);
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-position: right top;
+  background-repeat: no-repeat;
+  /* border: 2px solid black; */
+
+}
+
+.Navbar_content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  transition: all 0.3s ease-in;
+  background-color: #ffffff;
+  /* background-color: #5BCECD; */
+
+  /* border: 2px solid red; */
+  /* border: 2px solid red;
+  position: fixed; */
+
+  justify-content: center;
+}
+
+.navbarEm {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  /* gap: 3rem; */
+
+}
+
+.navbar_contents {
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+
+  /* border: 2px solid green; */
+
+}
+
+.navbarEm a {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: black;
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.navbarEm img {
+  cursor: pointer;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+.Next_Page1 {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbarEm button {
+  width: 120%;
+  height: 3rem;
+  background: #161412;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .navbarEm {
+    gap: 1.6rem;
+  }
+
+  .navbarEm a {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+  .navbarEm {
+    gap: 1.5rem;
+  }
+
+  .navbarEm a {
+    font-size: 16px;
+  }
+
+  .navbarEm button {
+    width: 115%;
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .navbarEm {
+    gap: 1.3rem;
+  }
+
+  .navbarEm a {
+    font-size: 16px;
+  }
+
+  .navbarEm button {
+    width: 120%;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .navbarEm {
+    gap: 1.1rem;
+  }
+
+  .navbarEm a {
+    font-size: 14px;
+  }
+
+  .navbarEm button {
+    width: 120%;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .navbarEm {
+    gap: 0.8rem;
+  }
+
+  .navbarEm a {
+    font-size: 12px;
+  }
+
+  .navbarEm button {
+    width: 120%;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (min-width:201px) and (max-width:800px) {
+  .mobile-menu-icon {
+    display: block;
+    color: #ffffff;
+    border-radius: 7px;
+    border: 2px solid #161412;
+    font-size: 25px;
+    background-color: #161412;
+    margin-left: 1rem;
+    margin-top: .5rem;
+  }
+
+
+
+  .navbarEm {
+    display: none;
+  }
+
+  .Navbar_content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 1rem;
+  }
+
+  .navbarEmResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 45%;
+    height: auto;
+    gap: 2rem;
+    top: 0;
+    padding-left: 1rem;
+    right: 0;
+  }
+
+  .navbarEmResponsive a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .navbarEmResponsive button {
+    width: 130px;
+    height: 43px;
+    background: #161412;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .navbar_contents {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+  }
+}

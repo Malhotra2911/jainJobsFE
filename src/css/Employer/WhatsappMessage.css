@@ -1,0 +1,59 @@
+.Whatsapp_main_content{
+    display: flex;
+    flex-direction: row;
+}
+.whatsapp_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.WhatsappMessage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: url('../../../public/employer/design.png'); */
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.WhatsappMessage .whatsappmessage{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whatsappmessage .head{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+.whatsappmessage .icon{
+    font-size: 3rem;
+    margin-top: -0.5rem;
+}
+.whatsappmessage button{
+    width: 197px;
+    height: 45px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 18px;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.whatsappmessage .msg{
+    background: rgba(140, 221, 220, 0.5);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 1.5rem;
+}

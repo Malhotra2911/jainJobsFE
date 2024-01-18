@@ -1,0 +1,97 @@
+.ConsultancyFirm {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  left: 0rem;
+  z-index: 999;
+  margin: auto;
+  background: rgb(100, 98, 98);
+}
+.consultancy_container {
+  width: 50%;
+  height: 85%;
+  background-image: url("../../../public/employer/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem; */
+  border-radius: 12px;
+}
+
+.consultancy_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.consultancy_content .head-firm{
+    color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.consultancy_content .Consultancyfirm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Consultancyfirm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Consultancyfirm .firm-form {
+  width: 80%;
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.Consultancyfirm .firm-form input::placeholder {
+  font-size: 19px;
+  color: #898787;
+  font-family: Poppins;
+}
+@media only screen and (min-width:201px) and (max-width:1000px){
+    /* .ConsultancyFirm{
+      height: 97%;
+      top:8%;
+    } */
+  .consultancy_container {
+        width: 95%;
+        height: 90%;
+        background-image: url("../../../public/employer/background.jpeg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50vh;
+        /* width: 1274px; */
+        /* height: 1360px; */
+        /* border-radius: 12px; */
+        background-color: white;
+        /* box-shadow: rgb(31 30 30 / 35%) 0px 5px 15px; */
+        display: flex;
+        flex-direction: column;
+        /* padding: 2rem; */
+        border-radius: 12px;
+    }
+    .Consultancyfirm .firm-form {
+      width: 100%;
+      /* border: 3px solid red; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+}

@@ -1,0 +1,59 @@
+.employeeSubscription_plan_container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+.employeesubscription_card{
+    width: 90%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1-title{
+    border: 2px solid black;
+}
+.ESC_plans{
+  width: 100%;
+  border-bottom: 2px solid rgba(247,112,29,0.39);
+      /* border: 2px solid red; */
+
+}
+.ESC_plans span{
+    width: 100%;
+    height: 2px;
+    background-color:rgba(247,112,29,0.39)
+}
+
+.checkbox1{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+.checkbox1 input[type=checkbox]{
+    /* appearance: none; */
+    /* -webkit-appearence:none; */
+    border:3px solid rgba(247,112,29,0.39);
+    width: 18px;
+    height: 18px;
+
+    margin-top: 2rem;
+    margin-left: -1.5rem;
+
+}
+/* .checkbox1 input[type=checkbox]:before{
+    border:3px solid rgba(247,112,29,0.39);
+
+} */
+.employeeSubscription_plan_container p{
+    margin-left: 1rem;
+}

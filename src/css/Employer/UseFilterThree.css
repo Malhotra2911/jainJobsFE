@@ -1,0 +1,161 @@
+.usefilter3_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 48vh;
+    margin-top: 2rem;
+}
+.usefilter3_form{
+    width: 100%;
+}
+.usefilter3_form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    /* border: 2px solid red; */
+
+}
+form .checkboxRS{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* margin: auto;
+    margin-bottom: .8rem;
+    margin-left: .2rem; */
+    margin: 0rem 0rem .8rem 3.8rem ;
+
+}
+.checkboxRS h3{
+    margin: 0;
+}
+.checkboxRS_container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    /* align-items:space-around; */
+    gap: 15rem;
+    /* border: 2px solid red; */
+    margin-top: .5rem;
+    /* margin-left: 1rem; */
+
+}
+/* .checkboxRShift_container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 14rem;
+    margin-top: .5rem;
+
+
+} */
+.formgroup{
+    display: flex;
+    flex-direction: row;
+        /* border: 2px solid red; */
+
+width: 90%;
+/* gap: 14rem; */
+
+
+}
+
+/* .checkbpx_yes_container{
+    gap:1rem;
+
+
+} */
+/* .containerc1{
+} */
+
+/* .checkboxRS label{
+   color: #898787;
+} */
+.checkboxRS h3{
+    color: #898787;
+}
+
+.form-row3{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* gap: .7rem; */
+    margin-top: .8rem;
+    gap: .7rem;
+
+    
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .usefilter3_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .6rem;
+        /* border: 2px solid red; */
+    
+    }
+
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .usefilter3_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.1rem;
+        /* border: 2px solid red; */
+    
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .usefilter3_form form{
+        gap:2.7rem;
+        display: flex;
+        flex-direction: column;
+
+    
+    }    
+    
+    }
+    @media only screen and (min-width: 801px) and (max-width: 1000px) {
+        .usefilter3_form form{
+            gap:3.7rem;
+            display: flex;
+            flex-direction: column;
+    
+        
+        }    
+        
+        }
+        @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+            .usefilter3_form form{
+                gap:0rem;
+                display: flex;
+                flex-direction: column;
+        
+            
+            }    
+            
+            }
+            @media only screen and (min-width: 1200px) and (max-width: 1300px) {
+                .usefilter3_form form{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1.5rem;
+                    /* border: 2px solid red; */
+                
+                }
+                  
+            }
+            

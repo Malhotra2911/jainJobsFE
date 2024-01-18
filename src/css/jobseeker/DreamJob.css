@@ -1,0 +1,240 @@
+.Dream_Container {
+  display: flex;
+  width: 100%;
+    /* border:5px solid red */
+
+}
+.Dream_Content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 5rem;
+  margin-top: 5rem;
+  /* border:5px solid red */
+}
+.dreamjob_heading_main{
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.freelancer_header{
+  width: 300px;
+  height: 300px;
+}
+.Dream_Img {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  /* border:5px solid green; */
+
+}
+.top_header_img{
+  width: 100%;
+  height: 100%;
+}
+.rectangle_img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/rectangleimg.png");
+}
+.circle_img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/dreamcircleimg.png");
+}
+.subcircle_img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/parentofgirl.png");
+}
+.telegram_img{
+
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* border: 3px solid green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/telegranarrow.png");
+
+}
+.main_img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/girlmain.png");
+}
+.main_freelancing_img{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/jobseeker/freelancerladki.png");
+
+}
+
+.dream_job_heading {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 60px;
+  color: #303939;
+}
+.dreamjob_para{
+  width: 60%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* line-height: 60px; */
+  color: #303939;
+  margin: 0;
+  /* border: 2px solid red; */
+
+}
+.dream_job_content {
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 38px;
+  color: #303939;
+}
+.freelancer_job_heading{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    font-size: 35px;
+    line-height: 50px;
+    color: #303939;
+
+}
+.freelancer_job_content {
+  margin-top: 2rem;
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  /* text-align: center; */
+  color: #303939;
+}
+
+
+@media only screen and (min-width: 201px) and (max-width: 600px) {
+  .Dream_Container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .Dream_Content{
+    align-items: center;
+    width: 100%;
+    padding: 0rem;
+  }
+  .freelancer_job_heading,
+  .dream_job_heading{
+    font-size: 1.4rem;
+    line-height: normal;
+    text-align: center;
+  }
+  .freelancer_job_content,
+  .dream_job_content{
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: normal;
+  }
+  .Dream_Img{
+    height: 73vh;
+    width: 100%;
+  }
+  .rectangle_img {
+    background-image: none;
+  }
+  .circle_img {
+    background-image: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+  .Dream_Container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .Dream_Content{
+    align-items: center;
+    width: 100%;
+    padding: 0rem;
+  }
+  .freelancer_job_heading,
+  .dream_job_heading{
+    /* font-size: 1.4rem; */
+    /* line-height: normal; */
+    text-align: center;
+  }
+  .freelancer_job_content,
+  .dream_job_content{
+    /* font-size: 0.8rem; */
+    text-align: center;
+    /* line-height: normal; */
+  }
+  .Dream_Img{
+    height: 45vh;
+    width: 100%;
+  }
+  /* .rectangle_img {
+    background-image: none;
+  }
+  .circle_img {
+    background-image: none;
+  } */
+}

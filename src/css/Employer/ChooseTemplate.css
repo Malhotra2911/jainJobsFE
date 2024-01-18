@@ -1,0 +1,413 @@
+.choose{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.ChooseTemplate{
+    width: 100%;
+    /* margin-top: 5%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ChooseTemplate .paratemp{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.7rem;
+    color: #000000;
+    /* border: 2px solid black; */
+   
+}
+.Choosetemplate{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+.choosetemp_addqn{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: .7rem;
+}
+
+
+.choosetemp_addqn .addtemp{
+    width: 15%;
+    padding: .7rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+border: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size:16px ;
+}
+.addtemp{
+    gap: 1rem;
+}
+
+.back_log_btn{
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.back_log_btn a{
+    width: 50%;
+    text-decoration: none;
+}
+ .back_log_btn .addtempb{
+    width:24%;
+    padding: .9rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+border: none;
+
+    font-size:16px ;
+
+
+}
+.back_log_btn .addtempl{
+    width:12%;
+    padding: .9rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+border: none;
+
+    font-size:16px ;
+
+}
+
+.Choosetemplate .temp-head p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: -2.7rem;
+    color: #000000;
+    /* border: 2px solid black; */
+
+
+}
+.temp-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid red; */
+}
+.cho-temp-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 3rem;
+
+}
+.cho-temp-body .temp-body-head input{
+    accent-color: rgba(140, 221, 220, 0.5);
+    width: 2rem; 
+    height: 2rem;
+    border-color: red;
+    border:1px solid rgba(247, 112, 29, 1);
+    border-radius:50%;
+    -webkit-appearance:none;
+}
+.cho-temp-body .temp-body-msg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 952px;
+    height: 162px;
+    cursor: pointer;
+    background: rgba(140, 221, 220, 0.5);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+.cho-temp-body .temp-body-msg p{
+    margin-left: 1rem;
+}
+@media only screen and (min-width:900px ) and (max-width:1280px) {
+    .Choosetemplate .temp-head{
+        width: 100%;
+        /* margin-top: 2rem; */
+    }
+    .ChooseTemplate .paratemp{
+        font-size: 16px;
+    }
+    .Choosetemplate .temp-head p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: -1.7rem;
+    
+    }
+    .temp-body{
+        width: 90%;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+    .ChooseTemplate .paratemp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -2.7rem; */
+        color: #000000;
+        text-align: center;
+        /* border: 2px solid black; */
+       
+    }
+    .choosetemp_addqn .addtemp{
+        width: 26%;
+    }
+    .addtemp{
+        gap: .7rem;
+    }
+    .back_log_btn .addtempb{
+        width: 40%;
+    }
+    .back_log_btn .addtempl{
+        width: 19%;
+    }
+    .back_log_btn{
+        gap: 2.5rem;
+        justify-content: center;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width:600px ) and (max-width:900px) {
+    .Choosetemplate .temp-head{
+        width: 100%;
+        /* margin-top: 2rem; */
+    }
+    .ChooseTemplate .paratemp{
+        font-size: 16px;
+    }
+    .Choosetemplate .temp-head p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: -1.7rem;
+    
+    }
+    .temp-body{
+        width: 90%;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+    .ChooseTemplate .paratemp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -2.7rem; */
+        color: #000000;
+        text-align: center;
+        /* border: 2px solid black; */
+       
+    }
+    .choosetemp_addqn .addtemp{
+        width: 26%;
+    }
+    .addtemp{
+        gap: .7rem;
+    }
+    .back_log_btn .addtempb{
+        width: 40%;
+    }
+    .back_log_btn .addtempl{
+        width: 19%;
+    }
+    .back_log_btn{
+        gap: 2.5rem;
+        justify-content: center;
+    }
+
+
+
+
+}
+@media only screen and (min-width:400px ) and (max-width:600px) {
+    .Choosetemplate .temp-head{
+        width: 100%;
+        /* margin-top: 2rem; */
+    }
+    .ChooseTemplate .paratemp{
+        font-size: 16px;
+    }
+    .Choosetemplate .temp-head p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: -1.7rem;
+    
+    }
+    .temp-body{
+        width: 90%;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+    .ChooseTemplate .paratemp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -2.7rem; */
+        color: #000000;
+        text-align: center;
+        /* border: 2px solid black; */
+       
+    }
+    .choosetemp_addqn .addtemp{
+        width: 46%;
+    }
+    .addtemp{
+        gap: .7rem;
+    }
+    .back_log_btn .addtempb{
+        width: 73%;
+    }
+    .back_log_btn .addtempl{
+        width: 34%;
+    }
+    .back_log_btn{
+        gap: 2.5rem;
+        justify-content: center;
+    }
+
+
+
+    
+}
+@media only screen and (min-width:200px ) and (max-width:400px) {
+    .Choosetemplate .temp-head{
+        width: 100%;
+        /* margin-top: 2rem; */
+    }
+    .ChooseTemplate .paratemp{
+        font-size: 14px;
+    }
+    .Choosetemplate .temp-head p{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        margin-top: -1.7rem;
+    
+    }
+    .temp-body{
+        width: 90%;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+    .Choosetemplate .temp-head .addtemp{
+        width: 111px;
+        height: 45px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+        border: none;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        gap: .5rem;
+        border: 2px solid yellow;
+    
+    
+    }
+    .ChooseTemplate .paratemp{
+        font-family: 'Poppins',sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: -2.7rem; */
+        color: #000000;
+        text-align: center;
+        /* border: 2px solid black; */
+       
+    }
+    .choosetemp_addqn .addtemp{
+        width: 46%;
+    }
+    .addtemp{
+        gap: .7rem;
+    }
+    .back_log_btn .addtempb{
+        width: 73%;
+    }
+    .back_log_btn .addtempl{
+        width: 34%;
+    }
+    .back_log_btn{
+        gap: 2.5rem;
+        justify-content: center;
+    }
+
+    
+}

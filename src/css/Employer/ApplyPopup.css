@@ -1,0 +1,58 @@
+.applypp_container{
+    width: 90%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:4rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.8);
+}
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+.apply-container{
+    width: 40%;
+    height: 40%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(31, 30, 30, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+.apply_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.apply_content form textarea{
+    padding: .6rem;
+    width: 100%;
+    border:3px solid #F7701d
+}
+.apply_content form p{
+    font-weight: 500;
+    font-size:large;
+    
+}
+.btn_ns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.btn_ns .btn_grp_ns{
+    border: none;
+    width: 30%;
+    padding: .3rem;
+    background: rgba(247,112,29,0.39);
+    border-radius: 10px;
+}

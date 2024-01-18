@@ -1,0 +1,357 @@
+.applislider_main{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.access_from_main_content {
+  display: flex;
+  flex-direction: row;
+}
+.Access_DB_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  /* background: whitesmoke; */
+}
+.AllShortlisted {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80vh;
+  margin-top: 1rem;
+  overflow-y: scroll;
+}
+.allshort {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem;
+}
+.all-short-Head {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* gap: 5rem; */
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: larger;
+  /* border: 2px solid black; */
+}
+/* .all-short-Head label{
+    margin-left: -5rem;
+} */
+.Short_card_col_1_active{
+  width: 100%;
+  /* border: 3px solid green; */
+}
+.all-short-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+.Short-listed-Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid green; */
+  align-items: flex-start;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  padding: 1rem;
+  border-radius: 20px;
+  /* margin-bottom: 1.5rem; */
+  /* margin: 1rem; */
+}
+.short_listed_card_close{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid green; */
+  align-items: flex-start;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  background: #FFFFFF;
+  padding: 1rem;
+  border-radius: 20px;
+
+}
+.Short-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  /* border: 3px solid red; */
+  justify-content: space-between;
+  /* gap: 2rem; */
+}
+.card-head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.card-head h2{
+  line-height: 2.5rem;
+}
+.card-head a {
+  text-decoration: none;
+  color: #18beff;
+}
+.card-body p{
+  /* font-family: "Poppins";
+  font-weight: 300;
+  font-size: 20px; */
+  margin: 0%;
+  line-height: 2rem;
+}
+.card-foot p {
+  /* text-decoration: none; */
+  color: #18beff;
+}
+.close{
+  display: none;
+}
+/* style={{width:"100%",display:"flex",flexDirection:"row",justifyContent:"space-around",marginTop:"10px",marginBottom:"10px"}} */
+.last_btn{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.applicant_slider{
+  display: block;
+  width: 45%;
+  height: auto;
+  background-color: #FFFFFF;
+  
+}
+.Short-card-col-2 {
+  width: 40%;
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+  align-items: flex-end;
+}
+.card-get-action {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* gap: 1.5rem; */
+  text-align: center;
+}
+.right {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.right p {
+  margin-left: 0.3rem;
+}
+.card-get-action .right img {
+  width: 20px;
+  height: 20px;
+  margin-left: -0.5rem;
+  margin-top: 1rem;
+}
+.drop {
+  width: 100%;
+}
+.drop select {
+  background-color: rgba(247, 112, 29, 0.39);
+  width: 119px;
+  height: 36px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-align: center;
+  border: 0px 0px 1px 0px;
+  font-size: larger;
+}
+.drop select:hover,
+.drop select:focus {
+  outline: none;
+}
+.drop option {
+  background-color: #ffff;
+}
+/* .actiondrop{
+    position:absolute;
+    
+    background-color: white;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+} */
+.BTN-Invitetoapply {
+  width: 126px;
+  background: rgba(247, 112, 29, 0.39);
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  .access_from_main_content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .applislider_main{
+    flex-direction: column;
+    gap: 1rem;
+
+  }
+  .AllShortlisted {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 67vh;
+    overflow-y: scroll;
+  }
+  .desc{
+    height: auto;
+  }
+  .all-short-Head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: larger;
+}
+.all-short-body {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.Short-card {
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    gap: 0rem;
+}
+.right {
+    /* position: relative; */
+    /* position: fixed; */
+    /* top: 14rem; */
+    /* bottom: 2rem; */
+    transform: rotate(90deg);
+    width: 2rem;
+    height: 3rem;
+    /* margin: 9rem 0rem 5rem 0rem; */
+}
+.rejectbtn{
+  width:30%;
+}
+.last_btn{
+  justify-content: space-between;
+}
+.short_listed_card_close{
+  width: 100%;
+}
+
+.applicant_slider{
+  width: 100%;
+}
+.applislider_main{
+  justify-content: space-between;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 850px) {
+.AllShortlisted {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 66vh;
+  overflow-y: scroll;
+}
+.applislider_main{
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.all-short-Head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: larger;
+}
+.all-short-body {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.Short-card {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  gap: 0rem;
+}
+.right {
+  /* position: relative; */
+  /* position: fixed; */
+  /* top: 14rem; */
+  /* bottom: 2rem; */
+  transform: rotate(90deg);
+  width: 2rem;
+  height: 3rem;
+  /* margin: 9rem 0rem 5rem 0rem; */
+}
+.rejectbtn{
+width:60%;
+border: 2px solid red;
+border-radius: 15px;
+}
+.last_btn{
+  justify-content: space-between;
+}
+.short_listed_card_close{
+  width: 90%;
+}
+
+.applicant_slider{
+  width: 90%;
+}
+.applislider_main{
+  justify-content: space-between;
+}
+
+}

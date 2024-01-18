@@ -1,0 +1,95 @@
+.certification_cont{
+    width: 50%;
+    height: 70%;
+    top: 15%;
+    left: 25%;
+    position: fixed;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 12px;
+
+
+}
+.certification_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.certification{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  
+}
+.certification h2{
+    text-align: center;
+
+}
+
+.certification_fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+
+}
+.button_c_ss{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.btn_c_ss{
+    width: 15%;
+    border: none;
+    background: #F7701D;
+    border-radius: 4px;
+    padding: .4rem;
+    color: #ffff;
+}
+.certification_Date{
+    margin-top: 0.5rem;
+    width: 90%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+@media only screen  and (max-width: 1024px) {
+    .certification_cont{
+        width: 90%;
+      }  
+     
+}
+@media only screen  and (max-width: 650px) {
+  .certification_cont{
+    width: 90%;
+  } 
+  .certification{
+    padding: 0rem;
+  } 
+  .certification_Date{
+    gap: 1rem;
+  }
+  .FML-Name{
+    gap: 0;
+  }
+  .btn_p_ss{
+    width: 25%;
+    padding: .6rem;
+  }
+}

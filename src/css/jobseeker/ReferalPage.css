@@ -1,0 +1,169 @@
+.Refer_Job_main_Container{
+    display: flex;
+    flex-direction: row;
+}
+.Refer_Job_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+    /* overflow-y: scroll; */
+    /* height: 70vh; */
+}
+.refer_jobs{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 85%;
+    
+    height: 35vh;
+    /* height: 330px; */
+    margin: 2rem 0rem 0rem 2rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0,0.25);
+    border-radius: 20px;
+    background: #FFFFFF;
+/* border: 2px solid red; */
+}
+.refer_head{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #95E2E2;
+    border-radius: 20px 20px 0px 0px;
+    justify-content: space-between;
+    height: 150px;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.refer_heading{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    /* padding: 0.7rem 0rem 0rem 0rem; */
+}
+.refer_money{
+    width: 20%;
+    /* float: right; */
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.wallent_money{
+    background-color: #f7711c;
+    border-radius: 0px 0px 20px 20px;
+    width: 101px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    /* margin: -0.9rem 0rem 0rem 0rem ; */
+}
+.refer_content{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem 0.7rem 1rem;
+    height: 400px;
+}
+.share_des{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0rem 0rem 1rem 2.5rem;
+    line-height: 14px;
+    color: #000000;
+}
+.link_place{
+    height: 30px;
+    width: 33rem;
+    margin:1rem 0rem 2rem 1rem;
+    border: 1px solid #F7701D;
+    padding: 0.2rem 0rem 0.2rem 0.5rem;
+    border-radius: 50px 0px 0px 50px;
+    height: 39px;
+}
+.link_share_btn{
+    /* height: ; */
+    height: 30px;
+    width: 8rem;
+    margin:1rem 0rem 2rem 0rem;
+    border: 1px solid #F7701D;
+    padding: 0.2rem 0rem 0.2rem 0rem;
+    border-radius: 0px 50px 50px 0px;
+    background: #8CDDDC;
+    border: none;
+    height: 39px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 10px;
+    color: #000000;
+}
+.share_socially{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 0rem 0rem 2rem;
+    /* width: ; */
+    /* justify-content: space-evenly; */
+}
+
+.social{
+    margin: 0rem 0.9rem 0rem 0.9rem;
+    font-size: 30px;
+}
+@media only screen and (min-width:200px ) and (max-width:400px) {
+.share_socially{
+    display: grid;
+    gap:.8rem;
+    grid-template-columns: 50% 50%;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.refer_jobs{
+    height: 66vh;
+    width: 80%;
+    align-items: center;
+    /* margin: auto; */
+    margin-right: 1rem;
+}
+}
+@media only screen and (min-width:400px ) and (max-width:600px) {
+    .share_socially{
+        display: grid;
+        gap:1.5rem;
+        grid-template-columns: 33% 33% 33%;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+    .refer_jobs{
+        height: 66vh;
+        width: 80%;
+        align-items: center;
+        /* margin: auto; */
+        margin-right: 1rem;
+    }
+    }
+    
+/* @media only screen and (min-width:600px ) and (max-width:900px) {
+    .share_socially{
+        display: grid;
+        gap:.8rem;
+        grid-template-columns: 50% 50%;
+        padding: 1rem 0rem 0rem 0rem;
+    }
+    .refer_jobs{
+        height: 66vh;
+        width: 80%;
+        align-items: center;
+        margin-right: 1rem;
+    }
+    } */

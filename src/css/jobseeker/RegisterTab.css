@@ -1,0 +1,141 @@
+.registertab_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-position: top right;
+    background-image: url("../../../public/jobseeker/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vh;
+}
+.Next_Page_btn{
+    text-decoration: none;
+    color: #000000;
+}
+.registertab_card{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    gap: 3rem;
+     margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    padding: 1.5rem;
+
+}
+.registertab_body{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+}
+.registertabbody1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.registertabbody1 .jobseeker{
+    border: 1px solid #F7701D;
+    padding: .5rem;
+    width: 100%;
+
+}
+.jobseekerimg,
+.employerimg{
+    background: rgba(247,112,29,0.39);
+    border-radius: 15px;
+    border: 1px solid #F7701D;
+    padding: .5rem;
+    width: 100%;
+
+}
+.registertabbody2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.registertabbody2 .employer{
+    padding: .5rem;
+    border: 1px solid #F7701D;
+    width: 100%;
+    height: 190px;
+}
+.jobseeker_employer{
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn_nxt{
+    width: 21%;
+    padding: .4rem;
+    border: none;
+    background: rgba(247,112,29,0.39);
+    border-radius: 15px;
+    margin-bottom: 4rem;
+    font-size: 18px;
+    height: 45px;
+    color: #000000;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 750px) {
+    .registertab_card {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 0rem;
+        margin: 1rem 0rem 1rem 0rem;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+        border-radius: 20px;
+    }
+    .registertab_card h1{
+        text-align: center;
+    }
+    .registertab_body{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+    }
+    .btn_nxt{
+        width: 41%;
+        padding: .4rem;
+        border: none;
+        background: rgba(247,112,29,0.39);
+        border-radius: 15px;
+        margin-bottom: 4rem;
+        font-size: 18px;
+        height: 45px;
+        color: #000000;
+    }
+    .registertab_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: 100vh;
+        align-items: center;
+    }
+    .jobseeker {
+        border: 1px solid #F7701D;
+        padding: 0.5rem;
+        width: 90%;
+    }
+    .employer {
+        padding: 0.5rem;
+        border: 1px solid #F7701D;
+        width: 90%;
+    }
+
+
+}

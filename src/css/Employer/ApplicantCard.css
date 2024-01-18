@@ -1,0 +1,198 @@
+.All_Shortlistedpopup_pop_content {
+  outline: none;
+}
+.All_Shortlistedpopup_content {
+  width: 100%;
+  height: 60vh;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  overflow-y: scroll;
+  /* border: 3px solid green; */
+  border-radius: 10px;
+  outline: none;
+  /* top: 20%; */
+  /* right: 3%; */
+}
+.all_shortpopup {
+  width: 100%;
+  height: 100%;
+  /* overflow-y: scroll; */
+  background-image: url("../../../public/employer/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50vh;
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.allshortpopup_content_container {
+  display: flex;
+  flex-direction: column;
+}
+.all_shortpopup_Head {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: larger;
+}
+.all_shortpopup_Head p {
+  font-size: 15px;
+}
+.all_shortpopup_Head label {
+  margin-left: -4.4rem;
+  margin-right: 0.5rem;
+  font-size: 15px;
+}
+.all-shortpopup-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.close_btn_profile {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.close_profile {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 21px;
+  margin: 1.3rem 0.9rem -1.8rem -0.5rem;
+}
+.report_complete{
+  text-align: center;
+}
+.profile_card_img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.4rem;
+}
+.image_name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.btn_section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 3px solid green; */
+  align-items: center;
+  padding-right: 2rem;
+}
+.action_btn {
+  height: 39px;
+  justify-content: center;
+  border: none;
+  background: rgba(247, 112, 29, 0.5);
+  border-radius: 10px;
+  width: 25%;
+  font-weight: 600;
+}
+.get_btn {
+  width: 20%;
+  margin: 0.3rem;
+  background: #ffffff;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  height: 35px;
+  font-weight: 600;
+  border: none;
+}
+.get_btn img {
+  margin: 0rem 0rem -0.27rem 0.5rem;
+}
+.btn_section {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.7rem;
+}
+.name {
+  margin: 0.7rem;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+.address_desc {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.2rem;
+}
+.desc {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 100%;
+}
+.details2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.details1 {
+  width: 50%;
+  padding-left: 17%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.break_line_profile {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 0%;
+}
+.details1 h5 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0%;
+}
+.details2 p {
+  font-family: "Poppins";
+  align-items: center;
+  /* text-align: center; */
+  font-size: 13px;
+  justify-content: center;
+  /* text-align: center; */
+}
+.view_more{
+  width: 100%;
+  border: none;
+  display: flex;
+  padding: .8rem;
+  background-color: #ffffff;
+  justify-content: flex-end;
+  align-items: flex-end;
+  outline: none;
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+  .desc{
+    height: auto;
+  }
+}

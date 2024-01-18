@@ -1,0 +1,295 @@
+.storycontainer_main{
+    width:100% ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top:4.3rem;
+    /* gap: 2rem; */
+}
+.multicarousel_container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin-top: 2rem;
+    background-color: #DCF5F4;
+
+}
+.storyclub_carousel{
+    width: 90%;
+    /* gap: 1rem; */
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 4.5rem; */
+    /* border: 2px solid green; */
+}
+.storyclub_carousel img{
+    width: 70%;
+}
+.mystorycontainer_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    
+}
+.Story_heading{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+}
+.mystorycontent p {
+   font-family: 'Volkhov';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+/* line-height: 23px; */
+display: flex;
+align-items: center;
+/* text-transform: capitalize; */
+
+}
+.mystoryimg_content{
+    width: 100%;
+    height: 51vh;
+    display: flex;
+    flex-direction: row;
+}
+.mystoryimg{
+    width: 30%;
+    height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url(../../../public/jobseeker/Ellipsestory.png);
+background-repeat: no-repeat;
+background-position: left center;
+    
+}
+.mystoryimg img{
+    height:100%;
+    border-radius: 10px;
+}
+.mystorycontent{
+width: 70%;
+
+}
+.mystory_youtube{
+    width: 100%;
+    height: 100%;
+    gap: 5rem;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../public/jobseeker/card.png);
+    background-repeat: no-repeat ;
+    background-size:cover;
+    background-color: #FFFF;
+
+}
+.mystoryyoutube_heading{
+    margin-top: 3rem;
+}
+.youtube_iframe{
+    /* width: 100%; */
+margin-bottom: 5rem;
+}
+.mystory_last_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(140,221,220,0.2);
+}
+.last_heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    background: rgba(247,112,29,0.39);
+    /* identical to box height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    
+}
+.last_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.last_content_left{
+    width: 40%;
+/* border: 2px solid red; */
+display: flex;
+justify-content: flex-end;
+}
+.last_content_left img{
+    height: 100%;
+    border-radius: 10px;
+}
+.last_content_right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4rem;
+    /* align-items: center; */
+    /* border: 2px solid green; */
+}
+.socialmedia_iconstory{
+    display: flex;
+    gap:1rem
+}
+
+@media only  screen and (max-width:1025px){
+    .mystorycontainer_main{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+
+    }
+    .mystorycontent{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* border: 2px solid red; */
+        
+        }
+        .mystoryimg{
+            width: 30%;
+            height: 60vh;
+            background-image: none;
+
+        }
+        .mystoryimg img{
+            width: 80%;
+        }
+
+
+}
+
+@media only  screen and (max-width:900px){
+    .mystorycontainer_main{
+        width: 100%;
+        height:70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    
+    .mystorycontent{
+        width: 60%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* border: 2px solid red; */
+        
+        }
+        .mystoryimg{
+            width: 40%;
+            background-image: none;
+        }
+        .mystoryimg img{
+            width: 80%;
+        }
+        .mystorycontent p{
+            font-size: 17px;
+        }
+}
+
+
+
+ @media only  screen and (max-width:650px){
+    .mystorycontainer_main{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mystoryimg_content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .mystorycontent{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+    }
+    .mystorycontent p{
+        text-align: justify;
+    }
+    .mystoryimg{
+        width: 60%;
+    }
+    .youtube_iframe{
+        width: 80%;
+        /* width: 100%; */
+    margin-bottom: 5rem;
+    }
+    .last_content{
+        flex-direction: column;
+    }
+    .last_content_left{
+        width: 40%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    }
+    .last_content_right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        /* align-items: center; */
+        margin-left: 1rem;
+        /* margin-left: 4rem; */
+        /* align-items: center; */
+        /* border: 2px solid green; */
+    }
+    .socialmedia_iconstory{
+        flex-direction: column;
+        
+    }
+    .twitterstory{
+        transform: scale(2.5);
+    }
+    
+ }

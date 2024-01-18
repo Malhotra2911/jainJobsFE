@@ -1,0 +1,115 @@
+.Freelancing {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  margin: auto;
+  /* background: rgba(32, 32, 32, 0.7); */
+  background: rgb(100, 98, 98);
+}
+.freelancing_container {
+  width: 50%;
+  height: 100%;
+  background-image: url("../../../public/employer/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.freelancing_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.freelancing_content .freelancing {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-free{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.freelancing form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.freelancing form .free-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: auto;
+}
+.freelancing .free-form input::placeholder {
+  font-size: 19px;
+  color: #898787;
+  font-family: Poppins;
+}
+.free-form .desc {
+  width: 100%;
+  background: #ffffff;
+  border: 3px solid #f7701d;
+  border-radius: 10px;
+  /* padding: .7rem; */
+  font-size: 17px;
+  color: #898787;
+  text-indent: 12px;
+}
+.btn_freelance_link {
+  width: 100%;
+  /* border: 2px solid blue; */
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+}
+.free-form .postJOB {
+  width: 30%;
+  padding: 0.6rem;
+  background: rgba(247, 112, 29, 0.39);
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  align-items: center;
+  font-size: 25px;
+}
+@media only screen and (min-width:200px ) and (max-width:1000px) {
+    /* .Freelancing{
+      height: 72%;
+      top:15%;
+    } */
+  .freelancing_container {
+        width: 95%;
+        height: 90%;
+        background-image: url("../../../public/employer/background.jpeg");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 50vh;
+        background-color: white;
+        /* box-shadow: rgb(31 30 30 / 35%) 0px 5px 15px; */
+        display: flex;
+        flex-direction: column;
+        /* padding: 2rem; */
+        border-radius: 12px;
+    }
+    
+}

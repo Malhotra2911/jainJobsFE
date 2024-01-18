@@ -1,0 +1,99 @@
+.Cancel_subscription_content{
+    width: 90%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top:0%;
+    left:4rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.8);
+}
+
+.Cancel_content{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 40%;
+    /* border: 2px solid blue; */
+    padding: 2rem;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+.close_btn{
+    width: 100%;
+    /* display: flex; */
+    /* align-items: right; */
+    /* float: right; */
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    /* border: 3px solid blue; */
+    /* align-items: flex-end; */
+    
+}
+.close_btn button{
+    background: transparent;
+    border: 10px;
+    font-size: 20px;
+    margin: -0.5rem -1rem 0rem 0.5rem;
+    cursor: pointer;
+
+}
+.content_boxes{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.content_box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* border: 3px solid yellow; */
+
+}
+.cancel_heading{
+    margin: -1rem 0rem 0rem 0rem ;
+    line-height: 45px;
+    margin-bottom: 0.5rem;
+
+}
+.cancel_description{
+    font-weight: 600;
+    margin: 0%;
+    font-family: "Poppins";
+    line-height: 29px;
+
+}
+.cancel{
+    width: 65%;
+    /* display: flex;
+    align-items: flex-start; */
+    justify-content: center;
+    /* text-align: center; */
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    background: rgba(247, 112, 29, 0.39);
+    border-radius: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+    cursor: pointer;
+    margin: 1.2rem 0rem 0rem 0rem;
+
+}
+.content_box{
+width: 50%;
+}
+.content_box img{
+    width: 95%;
+    height: 95%;
+
+}

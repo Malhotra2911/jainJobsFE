@@ -1,0 +1,47 @@
+.middle-card-box{
+  width: 22%;
+  height: 25%;
+  font-weight: 500;
+  position: fixed;
+  top:8rem;
+  right: 16rem;
+
+}
+.close_popup{
+  display: none;
+}
+.middle-card-box-content{
+  background-color: white;
+  border-radius: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.middle-card-box-img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40%;
+}
+.middle-card-box-img >img {
+  width: 30px;
+}
+.middle-card-box-content-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.middle-card-box-content-right {
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.middle-card-box-content-right > p{
+  color: #F7701D;
+}
+.long-down-arrow-div{
+  height: 30%;
+}
+.middle-card-box-content-left > h3{
+  font-weight: 500;
+}

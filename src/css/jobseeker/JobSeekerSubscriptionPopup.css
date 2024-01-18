@@ -1,0 +1,801 @@
+.subscription_popup_container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 4rem;
+    background:  rgba(32,32,32,.8);
+    width: 90%;
+    height: 100%;
+    /* border: 3px solid green; */
+}
+.Subscription_popup_Page-Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    /* background-image: url(../assets/Vector.png); */
+    background-position: top;
+    background-repeat: no-repeat;
+    /* border: 3px solid blue; */
+    /* margin-top: 2rem; */
+    font-family: "Poppins", sans-serif;
+  }
+  .subscription_popup_btn{
+    /* border: 3px solid green; */
+    /* background: white; */
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    /* align-items: flex-end; */
+  }
+  .subscription_popup_btn button{
+    font-size: 22px;
+    z-index: 3;
+    border: none;
+    background: transparent;
+    margin: 0rem 1.5rem -7rem 0rem;
+  }
+  .Subscription_popup_Table-Container{
+    width: 80%;
+    display: grid;
+    /* grid-template-columns: 75% 15% 10%; */
+    margin-top: 1.5rem;
+    /* margin-bottom: 5rem; */
+    align-items: center;
+    background-color: white;
+    /* border: 3px solid red; */
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 50px rgb(0 0 0 / 25%);
+  }
+  .TableHead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .TableHead h2{
+    width: 45%;
+    text-align: left;
+  }
+  .basic_premium_head{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid yellow; */
+    gap: 2%;
+  }
+  .SubscriptionPage-Header{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3rem;
+      color: white;
+  }
+  .button_subscription{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* margin-left: 5rem; */
+    margin: 1rem 0rem 0rem 0rem;
+    /* gap: 4rem; */
+  }
+  .btn-grp-subscription{
+    width: 22%;
+    /* border: none; */
+    padding: .6rem;
+    height: 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    background: transparent;
+    /* background: rgba(247,112,29,0.39); */
+    border: 3px solid rgba(247,112,29,0.39);
+    border-radius: 7px;
+  }
+  .btn-grp-subscription:hover{
+    width: 22%;
+    border: none;
+    padding: .6rem;
+    height: 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    background: rgba(247,112,29,0.39);
+    border: 3px rgba(247,112,29,0.39);
+    border-radius: 7px;
+  
+  }
+  .btn-grp-subscription1{
+    width: 22%;
+    /* border: none; */
+    padding: .6rem;
+    height: 40px;
+    font-family: "Poppins";
+    background: transparent;
+    font-weight: 600;
+    border: 2px solid rgba(247, 96, 2, 0.849);
+    /* background: rgba(247, 96, 2, 0.849); */
+    /* border: 3px solid blue; */
+    border-radius: 7px;
+  }
+  .btn-grp-subscription1:hover{
+    width: 22%;
+    border: none;
+    padding: .6rem;
+    height: 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    border: 2px rgba(247, 96, 2, 0.849);
+    background: rgba(247, 96, 2, 0.849);
+    /* border: 3px solid blue; */
+    border-radius: 7px;
+  
+  }
+  .SubscriptionTable-Container {
+    width: 80%;
+    display: grid;
+    /* grid-template-columns: 75% 15% 10% ; */
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    background-color: white;
+    /* border: 3px solid green; */
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  }
+  /* .SubscriptionTable-Container span{
+      width: 100%;
+      height: 2px;
+      background-color: orange;
+  } */
+  .Table-Subject{
+      width: 100%;
+      /* text-align: justify; */
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      /* border: 3px solid blue; */
+  }
+  .Table-Subject h3{
+    width: 75%;
+  }
+  .both_btn{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+  }
+  .Basic{
+      display: flex;
+      width: auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      /* margin: 0rem 2rem 0rem 0rem; */
+  }
+  .Premium{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      justify-content: center;
+  }
+  .Basic-Button{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0rem 1rem 0rem 0rem; */
+    width: 100%;
+  
+    color: gray;
+  }
+  .Premium-Button{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* font-weight: 600; */
+    color: gray;
+  }
+  
+  @media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    .basic_premium_head{
+      width: 28%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 28%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+  }
+  
+  @media only screen and (min-width: 1101px) and (max-width: 1200px) {
+    .basic_premium_head{
+      width: 32%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 32%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+  }
+  
+  @media only screen and (min-width: 1001px) and (max-width: 1100px) {
+    .basic_premium_head{
+      width: 34%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 34%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+  }
+  @media only screen and (min-width: 901px) and (max-width: 1000px) {
+    .basic_premium_head{
+      width: 38%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 38%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  
+  @media only screen and (min-width: 801px) and (max-width: 900px) {
+    .Table-Subject h3{
+      width: 58%;
+      text-align: justify;
+    }
+    .basic_premium_head{
+      width: 42%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 42%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  
+  @media only screen and (min-width: 701px) and (max-width: 800px) {
+    .Table-Subject h3{
+      width: 58%;
+      text-align: justify;
+    }
+    .basic_premium_head{
+      width: 42%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 42%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 30%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 30%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  @media only screen and (min-width: 601px) and (max-width: 700px) {
+    .SubscriptionTable-Container {
+      width: 90%;
+      display: grid;
+      /* grid-template-columns: 75% 15% 10% ; */
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      background-color: white;
+      /* border: 3px solid green; */
+      height: auto;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    }
+    .Table-Subject h3{
+      width: 61%;
+      text-align: justify;
+    }
+    .basic_premium_head{
+      width: 39%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 39%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  @media only screen and (min-width: 501px) and (max-width: 600px) {
+    .SubscriptionTable-Container {
+      width: 95%;
+      display: grid;
+      /* grid-template-columns: 75% 15% 10% ; */
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      background-color: white;
+      /* border: 3px solid green; */
+      height: auto;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    }
+    .Table-Subject h3{
+      width: 57%;
+      text-align: justify;
+    }
+    .basic_premium_head{
+      width: 43%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 2%;
+    }
+    .both_btn{
+      width: 43%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  
+  @media only screen and (min-width: 401px) and (max-width: 500px) {
+    .SubscriptionTable-Container {
+      width: 95%;
+      display: grid;
+      /* grid-template-columns: 75% 15% 10% ; */
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      background-color: white;
+      /* border: 3px solid green; */
+      height: auto;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    }
+    .TableHead h2{
+      width: 40%;
+      text-align: justify;
+    }
+    .Table-Subject h3{
+      width: 45%;
+      text-align: justify;
+    }
+    .basic_premium_head{
+      width: 60%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 1%;
+    }
+    .both_btn{
+      width: 55%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 37%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 37%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }
+  @media only screen and (min-width: 301px) and (max-width: 400px) {
+    .SubscriptionTable-Container {
+      width: 95%;
+      display: grid;
+      /* grid-template-columns: 75% 15% 10% ; */
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      background-color: white;
+      /* border: 3px solid green; */
+      height: auto;
+      padding: 1.5rem;
+      border-radius: 20px;
+      box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    }
+    .TableHead h2{
+      width: 35%;
+      text-align: left;
+    }
+    .Table-Subject h3{
+      width: 38%;
+      text-align: left;
+    }
+    .basic_premium_head{
+      width: 65%;
+      display: flex;
+      flex-direction: row;
+      /* border: 3px solid yellow; */
+      gap: 1%;
+    }
+    .both_btn{
+      width: 62%;
+      display: flex;
+      flex-direction: row;
+      /* border: 2px solid red; */
+    }
+    .btn-grp-subscription{
+      width: 47%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: transparent;
+      /* background: rgba(247,112,29,0.39); */
+      border: 3px solid rgba(247,112,29,0.39);
+      border-radius: 7px;
+    }
+    .btn-grp-subscription:hover{
+      width: 47%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      background: rgba(247,112,29,0.39);
+      border: 3px rgba(247,112,29,0.39);
+      border-radius: 7px;
+    
+    }
+    .btn-grp-subscription1{
+      width: 47%;
+      /* border: none; */
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      background: transparent;
+      font-weight: 600;
+      border: 2px solid rgba(247, 96, 2, 0.849);
+      /* background: rgba(247, 96, 2, 0.849); */
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    }
+    .btn-grp-subscription1:hover{
+      width: 47%;
+      border: none;
+      padding: .6rem;
+      height: 40px;
+      font-family: "Poppins";
+      font-weight: 600;
+      border: 2px rgba(247, 96, 2, 0.849);
+      background: rgba(247, 96, 2, 0.849);
+      /* border: 3px solid blue; */
+      border-radius: 7px;
+    
+    }
+  }

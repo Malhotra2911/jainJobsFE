@@ -1,0 +1,511 @@
+.useprofile_container{
+    display: flex;
+    flex-direction: row;
+}
+.Profile_Form_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+}
+.UserProfileForm{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    /* z-index: -1; */
+    height: 55vh;
+    overflow-y: scroll;
+}
+.UserProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserProfile form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label_box{
+    width: 70%;
+    /* border: 3px solid green; */
+}
+.label_name{
+    width: 60%;
+    font-weight: 600;
+    /* border: 3px solid orange; */
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* z-index: -1; */
+    align-items: center;   
+} 
+
+.profile-img{
+    width: 100%;
+    display: flex;
+    /* position: relative; */
+    border: 3px solid green;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0rem;
+    z-index: 0;
+}
+.profile_icon{
+    border: 3px solid orange;
+    transform: scale(5);
+}
+.profile-img .file{
+    width: 15%;
+    color: transparent;
+    cursor: pointer;
+    /* border: 3px solid blue; */
+    opacity: 0;
+    /* height: 100px; */
+    /* position: relative; */
+    margin: -6.26rem 0rem 0rem 1.3rem ;
+
+    /* position: absolute; */
+      /* width: 100%; */
+      /* z-index: 1; */
+      /* cursor: pointer; */
+    /* top: 7rem; */
+    /* padding: ; */
+    /* margin:7rem  ; */
+    /* border: none; */
+    
+}
+
+.profile-img img{
+    width: 10%;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+    /* border: 3px solid green; */
+
+}
+.profile-img .cam{
+    position: relative;
+    bottom: 3rem;
+    /* left: 3rem; */
+    /* border: 3px solid black; */
+    margin: 1rem 0rem 0rem 3.6rem;
+    /* border: 2px solid yellow; */
+    /* color: ; */
+    color: rgb(46, 45, 45);
+}
+/* .form input{    
+    padding: 1rem;
+    width: 60%;
+    border: #F7701D 1px solid;
+    border-radius: 0.5rem;
+} */
+/* .form input::placeholder{
+    font-size: 0.8rem;
+    font-weight: 200;
+} */
+/* .form textarea{
+    width: 60%;
+    padding: -0.3rem 0rem 0rem 2rem;
+    padding-top: -1.5rem;
+    padding-left: 1.3rem;
+    padding: 0%;
+    border: #F7701D 1px solid;
+    border-radius: 0.5rem;
+} */
+.form textarea::placeholder{
+    /* margin: 0%; */
+    /* padding: -0.8rem 0rem 0rem 1.5rem; */
+    font-size: 1rem;
+    font-weight: 200;
+}
+.address{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    text-align: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* border: 3px solid green; */
+}
+/* .address input{
+    border: 2px solid #F7701D;
+    transform: scale(1.3);
+    margin-left: -3.8rem;
+
+} */
+.address label{
+    margin-left: -13rem;
+    margin-top: -0.2rem;
+    /* font-family: ; */
+    font-weight: 600;
+}
+.upload{
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3rem;
+    border: 1px dashed #F7701D;
+    width: 60%;
+    height: 5rem;
+    font-size: 1.3rem;
+    color: #000000;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.file_upload_icon{
+    color: #F7701D;
+    transform: scale(1.6);
+    /* padding-top: ; */
+    margin-right: 0.8rem;
+}
+.upload input{
+    visibility: hidden;
+}
+.form p{
+    text-align: center;
+    font-size: 18px;
+    /* font-size: x-large; */
+    margin: 0%;
+}
+.create{
+    width: 60%;
+    padding: 1rem;
+    /* background: #F7701D; */
+    background: rgba(247, 112, 29, 0.39);
+    font-family: "Poppins";
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.profile-img input{
+    visibility: none;
+}
+.Save{
+    width: 60%;
+    padding: 1rem;
+    background: rgba(247, 112, 29, 0.39);
+    font-family:"Poppins";
+    font-size: x-large;
+    font-weight: 600;
+    color: #000000;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.Write-to-form-Container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    background: rgba(32, 32, 32, 0.7);
+  }
+.Close-BTN{
+    position: absolute;
+    left: 78%;
+    top: 17%;
+    background-color: rgba(202, 23, 113, 0);
+    border:none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #ffff;
+}
+.Sub-plan{
+    background-color:#ffff;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    /* gap: 10rem; */
+}
+.Sub-plan p{
+    width: 50%;
+    line-height: 30px;
+    padding: .5rem;
+}
+.Sub-plan img{
+    width: 45%;
+    padding: 1.2rem;
+    /* margin-left: -10rem; */
+}
+.useprofile_container{
+    display: flex;
+    flex-direction: row;
+}
+.Profile_Form_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position: bottom right ;
+    background-repeat: no-repeat;
+}
+.UserProfileForm{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    /* z-index: -1; */
+    height: 55vh;
+    /* border: 2px solid red; */
+
+    overflow-y: scroll;
+}
+.UserProfile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.UserProfile form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label_box{
+    width: 70%;
+    /* border: 3px solid green; */
+}
+.label_name{
+    width: 60%;
+    font-weight: 600;
+}
+.form{
+    width: 100%;
+    display: flex;
+    /* border: 3px solid orange; */
+
+    flex-direction: column;
+    gap: 0.5rem;
+    /* z-index: -1; */
+    align-items: center;   
+} 
+
+.profile-img{
+    width: 100%;
+    display: flex;
+    /* position: relative; */
+    border: 3px solid green;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0rem;
+    z-index: 0;
+}
+.profile_icon{
+    border: 3px solid orange;
+    transform: scale(5);
+}
+.profile-img .file{
+    width: 15%;
+    color: transparent;
+    cursor: pointer;
+    /* border: 3px solid blue; */
+    opacity: 0;
+    /* height: 100px; */
+    /* position: relative; */
+    margin: -6.26rem 0rem 0rem 1.3rem ;
+
+    /* position: absolute; */
+      /* width: 100%; */
+      /* z-index: 1; */
+      /* cursor: pointer; */
+    /* top: 7rem; */
+    /* padding: ; */
+    /* margin:7rem  ; */
+    /* border: none; */
+    
+}
+
+.profile-img img{
+    width: 10%;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: 0;
+    /* border: 3px solid green; */
+
+}
+.profile-img .cam{
+    position: relative;
+    bottom: 3rem;
+    /* left: 3rem; */
+    /* border: 3px solid black; */
+    margin: 1rem 0rem 0rem 3.6rem;
+    /* border: 2px solid yellow; */
+    /* color: ; */
+    color: rgb(46, 45, 45);
+}
+/* .form input{    
+    padding: 1rem;
+    width: 60%;
+    border: #F7701D 1px solid;
+    border-radius: 0.5rem;
+} */
+/* .form input::placeholder{
+    font-size: 0.8rem;
+    font-weight: 200;
+} */
+/* .form textarea{
+    width: 60%;
+    padding: -0.3rem 0rem 0rem 2rem;
+    padding-top: -1.5rem;
+    padding-left: 1.3rem;
+    padding: 0%;
+    border: #F7701D 1px solid;
+    border-radius: 0.5rem;
+} */
+.form textarea::placeholder{
+    /* margin: 0%; */
+    /* padding: -0.8rem 0rem 0rem 1.5rem; */
+    font-size: 1rem;
+    font-weight: 200;
+}
+.address{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    text-align: center; */
+    /* justify-content: space-evenly; */
+    /* justify-content: center; */
+    /* border: 3px solid green; */
+}
+/* .address input{
+    border: 2px solid #F7701D;
+    transform: scale(1.3);
+    margin-left: -3.8rem;
+
+} */
+.address label{
+    margin-left: -13rem;
+    margin-top: -0.2rem;
+    /* font-family: ; */
+    font-weight: 600;
+}
+.upload{
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3rem;
+    border: 1px dashed #F7701D;
+    width: 60%;
+    height: 5rem;
+    font-size: 1.3rem;
+    color: #000000;
+    cursor: pointer;
+    /* border: 3px solid green; */
+}
+.file_upload_icon{
+    color: #F7701D;
+    transform: scale(1.6);
+    /* padding-top: ; */
+    margin-right: 0.8rem;
+}
+.upload input{
+    visibility: hidden;
+}
+.form p{
+    text-align: center;
+    font-size: 18px;
+    /* font-size: x-large; */
+    margin: 0%;
+}
+.create{
+    width: 60%;
+    padding: 1rem;
+    /* background: #F7701D; */
+    background: rgba(247, 112, 29, 0.39);
+    font-family: "Poppins";
+    font-size: x-large;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.profile-img input{
+    visibility: none;
+}
+.Save{
+    width: 60%;
+    padding: 1rem;
+    background: rgba(247, 112, 29, 0.39);
+    font-family:"Poppins";
+    font-size: x-large;
+    font-weight: 600;
+    color: #000000;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+.Write-to-form-Container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    background: rgba(32, 32, 32, 0.7);
+  }
+.Close-BTN{
+    position: absolute;
+    left: 78%;
+    top: 17%;
+    background-color: rgba(202, 23, 113, 0);
+    border:none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #ffff;
+}
+.Sub-plan{
+    background-color:#ffff;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    /* gap: 10rem; */
+}
+.Sub-plan p{
+    width: 50%;
+    line-height: 30px;
+    padding: .5rem;
+}
+.Sub-plan img{
+    width: 45%;
+    padding: 1.2rem;
+    /* margin-left: -10rem; */
+}

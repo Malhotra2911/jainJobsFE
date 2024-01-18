@@ -1,0 +1,98 @@
+.DashBoardTour-background{
+    /* background-color: rgb(180, 180, 180); */
+    /* position: fixed;
+    left: 2rem;
+    top: 0rem; */
+    width: 40%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    left: 18.7rem;
+    outline: none;
+    border: none;
+    top: 9.5rem;
+  }
+  .close{
+    display: none;
+  }
+  
+  .DashBoardTour-card-card{
+
+    background-color: white;
+    border-radius: 20px;
+    width: 80%;
+  }
+  
+  .DashBoardTour-card-card-child{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+  }
+  .DashBoardTour-card-card-child-top{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+
+  }
+  .DashBoardTour-card-card-child-top > div{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 10%;
+    margin-right: 5%;
+
+  }
+  .DashBoardTour-card-card-child-bottom{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+  .DashBoardTour-card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    /* border:2px solid black; */
+    /* position: fixed; */
+
+
+  }
+  .DashBoardTour-card-box > img{
+    width: 10%;
+  }
+  .DashBoardTour-card-card-child-middle > h3{
+    text-align: center;
+  }
+  .DashBoardTour-card-arrow {
+    width: 20%;
+    margin-bottom: 15%;
+    /* position: fixed;
+    left: 3rem;
+    top: 2rem; */
+
+  }
+  
+  
+  .DashBoardTour-card-card-child-top > div > h3{
+    margin-left: 13%;
+    font-weight: 600;
+  }
+  .DashBoardTour-card-card-child-top > div > p{
+    color: #F7701D;
+    font-weight: 600;
+    font-size: 110%;
+    
+  }
+  .DashBoardTour-card-card-child-bottom > p{
+    color: #F7701D;
+    font-weight: 600;
+    font-size: 110%;
+  }
+  .DashBoardTour-card-card-child-top > div > h3{
+    font-weight: 600;
+  }

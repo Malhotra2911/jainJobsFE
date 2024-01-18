@@ -1,0 +1,195 @@
+.employer_background_img{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url("../../../public/employer/backgroundnewnewimg.jpg");
+    /* background-image: url("../../../public/employer/backgroundnewnewimg.jpg"); */
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.employer_job_post{
+    display: flex;
+    flex-direction: row;
+}
+.employer_job_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position:right bottom ;
+    background-repeat: no-repeat;
+}
+.hiringtab_container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 1rem;
+    /* border: 3px solid blue; */
+    /* background-size: 100vh; */
+    /* height: 60vh; */
+    /* overflow-y: scroll; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+  
+}
+.hiringtab_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    /* margin:auto; */
+    gap: 2rem;
+     /* margin-top: 4rem; */
+    /* margin-bottom: 4rem; */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.25);
+    border-radius: 1rem;
+    padding: 1rem;
+        /* border: 2px solid red; */
+
+
+}
+.hiringtab_body{
+    display: flex;
+    flex-direction: row;
+    /* gap:4rem; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+.hiringtabbody1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    gap: 1rem;
+}
+.hiringtabbody1 .forcompany{
+    border: 1px solid #F7701D;
+    padding: .5rem;
+    width: 100%;
+    height: 75%;
+    border-radius: 1rem;
+
+}
+.hiringtabbody2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 1rem;
+    gap: 1rem;
+    /* border: 2px solid red; */
+}
+.hiringtabbody2 .forclient{
+    padding: .5rem;
+    border: 1px solid #F7701D;
+    border-radius: 1rem;
+
+    height: 190px;
+}
+
+.jobseekerimg1{
+    background: rgba(247,112,29,0.39);
+    padding: .5rem;
+    width: 80%;
+    height: 75%;
+    border-radius: 15px;
+}
+.employerimg1{
+    background: rgba(247,112,29,0.39);
+    border-radius: 15px;
+   
+    padding: .5rem;
+    
+    height: 190px;
+
+}
+.company_client{
+    border: none;
+    background: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn_nxt_employee{
+    width: 24%;
+    height: 45px;
+    font-size: 20px;
+    padding: .4rem;
+    border: none;
+    background: rgba(247,112,29,0.39);
+    border-radius: 15px;
+    cursor: pointer;
+    /* margin-bottom: 4rem; */
+}
+
+.next_employee {
+    /* width: max-content; */
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    /* border: 3px solid; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+@media only  screen and (min-width:600px) and (max-width:1000px){
+    .hiringtab_container{
+        width: 100%;
+        align-items: center;
+    }
+    .hiringtab_card{
+        width: 75%;
+    }
+    .hiringtab_body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hiringtabbody1,
+    .hiringtabbody2{
+        width: 55%;
+    }
+    .hiringtabbody1 .forcompany{
+        width: 100%;
+        height: 190px;
+    }
+    .hiringtabbody2 .forclient{
+        width: 100%;
+        height: 190px;
+    }
+}
+@media only  screen and (min-width:200px) and (max-width:600px){
+    .hiringtab_container {
+        width: 95%;
+        position: fixed;
+        top: 10%;
+        bottom: 7%;
+        /* padding: 1rem; */
+        /* border: 3px solid blue; */
+        /* background-size: 100vh; */
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    .hiringtab_card {
+        width: 100%;
+    }
+    .hiringtab_body{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hiringtabbody1,
+    .hiringtabbody2{
+        width: 90%;
+    }
+    .hiringtabbody2 .forclient,
+    .hiringtabbody1 .forcompany{
+        width: 100%;
+        height: 190px;
+    }
+}

@@ -1,0 +1,123 @@
+.All_Shortlisted_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-position:right bottom ;
+    background-repeat: no-repeat;
+}
+.AllShortlisted{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75vh;
+    overflow-y: scroll;
+}
+.allshort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all-short-Head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: larger;
+}
+/* .all-short-Head label{
+    margin-left: -5rem;
+} */
+.all-short-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+.Short-listed-Card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    margin: 1rem;
+}
+.Short-card{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+}
+.card-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+.card-head a{
+    text-decoration: none;
+    color: #18BEFF;
+}
+.card-body{
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+}
+.card-foot a{
+    text-decoration: none;
+    color: #18BEFF;
+}
+.Short-card-col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.card-get-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem ;
+    text-align: center;
+}
+.right{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    width: 60%;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.card-get-action .right img{
+    width: 20px;
+    height: 20px;
+    margin-left: -0.5rem;
+    margin-top: 1rem;
+}
+.drop{
+    width: 100%;
+}
+.drop select{
+    background-color:rgba(247, 112, 29, 0.39);
+    width: 119px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    border: 0px 0px 1px 0px;
+    font-size: larger;
+}
+
+.drop option{
+    background-color: gray;
+}

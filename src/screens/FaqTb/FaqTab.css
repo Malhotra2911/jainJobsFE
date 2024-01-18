@@ -1,0 +1,53 @@
+.faq_Containertab{
+    /* border: 2px solid #F7701D; */
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    height: 95%;
+    background-image: url("../../../public/jobseeker/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-size: 50vh; */
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    font-family: Poppins;
+  
+}
+.faqEmp_ContainerTab{
+    /* border: 2px solid #F7701D; */
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    height: 95%;
+    background-image: url("../../../public/jobseeker/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-size: 50vh; */
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    font-family: Poppins;
+  
+ 
+}
+.faqFrelancer_ContainerTab{
+    /* border: 2px solid #F7701D; */
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    height: 95%;
+    background-image: url("../../../public/jobseeker/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* background-size: 50vh; */
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    font-family: Poppins;
+  
+ 
+}

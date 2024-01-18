@@ -1,0 +1,115 @@
+.usefilter4_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    height: 53vh;
+}
+.usefilter4_form{
+    width: 100%;
+}
+.usefilter4_form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.form-row4{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: .7rem;
+    margin-top: .8rem;
+}
+@media only screen and (min-width: 1000px) and (max-width: 1100px) {
+    .usefilter4_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        /* border: 2px solid red; */
+    
+    }
+    .form-row4{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: .5rem;
+        margin-top: 0.5rem;
+    }
+    
+}
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+    .usefilter4_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        /* border: 2px solid red; */
+    
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .usefilter4_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+        /* border: 2px solid red; */
+    
+    }
+
+
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .usefilter4_form form{
+        gap:.2rem;
+        display: flex;
+        flex-direction: column;
+
+    
+    }    
+    
+    }
+    @media only screen and (min-width: 601px) and (max-width: 800px) {
+        .usefilter4_form form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 2.7rem;
+            /* border: 2px solid red; */
+        
+        }
+    
+    
+    }
+    
+    @media only screen and (min-width: 801px) and (max-width: 1000px) {
+        .usefilter4_form form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 3.5rem;
+            /* border: 2px solid red; */
+        
+        }
+    
+    
+    }
+    @media only screen and (min-width: 1001px) and (max-width: 1200px) {
+        .usefilter4_form form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 0rem;
+            /* border: 2px solid red; */
+        
+        }
+    
+    
+    }
+        

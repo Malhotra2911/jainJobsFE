@@ -1,0 +1,83 @@
+.jobseekersubscription_container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../../public/jobseeker/subscriptionheader.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    margin: auto;
+    /* position: relative; */
+    /* z-index: 999; */
+    font-family: "Poppins", sans-serif;
+}
+
+.jobseekersubscription_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    color: white;
+}
+
+.jobseekersunscription_card {
+    width: 100%;
+}
+
+.subscriptionpage_btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid red; */
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.subscriptionpage_btn .proceedwith_without_subscription {
+    padding: .6rem;
+    border: none;
+    background: rgba(247, 112, 29, 0.39);
+    height: 40px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    font-style: normal;
+    border-radius: 7px;
+}
+
+@media only screen and (min-width: 201px) and (max-width: 800px) {
+    .jobseekersubscription_container {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("../../../public/jobseeker/subscriptionheader.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        margin-top: 2rem;
+        margin: auto;
+        font-family: "Poppins", sans-serif;
+    }
+    .jobseekersubscription_header {
+        text-align: center;
+    }
+    .subscriptionpage_btn .proceedwith_without_subscription {
+        padding: .6rem;
+        border: none;
+        background: rgba(247, 112, 29, 0.39);
+        /* height: 49px; */
+        height: auto;
+        font-family: "Poppins";
+        font-weight: 500;
+        font-style: normal;
+        border-radius: 7px;
+    }
+}
+@media only screen and (max-width:900px){
+    
+}

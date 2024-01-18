@@ -1,0 +1,216 @@
+.ResumeBuild{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Resume{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(82, 171, 28, 0.4);
+}
+.PersonalDetails{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.PersonalDetails h2{
+    text-align: center;
+}
+.FML-Name{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+.Name input {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+}
+.Name label{
+    color: #898787;
+}
+.DOB{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.DOB label{
+    color:  #898787;
+}
+.DOB input{
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    padding: 1rem;
+}
+.Education{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Education h2{
+    text-align: center;
+}
+.Edu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Edu input{
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    padding: 1rem;
+}
+.Edu label{
+    color: #898787;
+}
+.Edu button{
+    width: 10%;
+    border-radius: 0.5rem;
+    border: #F7701D 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+}
+.WorkExperience{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.WorkExperience h2{
+    text-align: center;
+}
+.Work-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Work-1 input{
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    padding: 1rem;
+}
+.Work-1 label{
+    color: #898787;
+}
+.Work-Type{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    font-size: large;
+    margin-top: 1rem;
+}
+.Work-Type input{
+    font-size: x-large;
+}
+.Date{
+    margin-top: 0.5rem;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.Work-1 .ADD{
+    cursor: pointer;
+    width: 10%;
+    border-radius: 0.5rem;
+    border: #F7701D 1px solid;
+    background-color: transparent;
+}
+.Skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Skills h2{
+    text-align: center;
+}
+.skill{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.skill input{
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    padding: 1rem;
+}
+.skill label{
+    color: #898787;
+}
+.skill button{
+    width: 10%;
+    border-radius: 0.5rem;
+    border: #F7701D 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Certificate-Licence{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Certificate-Licence h2{
+    text-align: center;
+}
+.Certificate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Certificate label{
+    color: #898787; 
+}
+.Certificate input{
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    padding: 1rem;
+}
+.Certificate .ADD{
+    width: 10%;
+    border-radius: 0.5rem;
+    border: #F7701D 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+}
+.Save{
+    margin-top: 2rem;
+    width: 57%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    background-color: #F7701D;
+    color: white;
+    cursor: pointer;
+}

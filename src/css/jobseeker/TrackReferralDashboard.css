@@ -1,0 +1,390 @@
+.Track_referal_content {
+  display: flex;
+  flex-direction: row;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  /* background-image: url("../assets/Navbarbackground.jpeg"); */
+}
+.Track_Content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.TrackReferralDashboard {
+  width: 98%;
+  /* border: 5px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 2rem;
+  height: 65vh;
+  /* margin-right: -50px; */
+  /* overflow-y: scroll; */
+  /* border: 3px solid yellow; */
+
+  /* overflow-x: hidden; */
+}
+.TrackReferral {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Eamail-ref {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+  gap: 2rem;
+  z-index: 9;
+  /* margin-right: 2rem; */
+
+}
+.Eamail-ref input {
+  width: 32.5%;
+  font-size: x-large;
+  margin-left: -2.5rem;
+  padding: .3rem;
+  /* border-radius: 8px; */
+  border: 3px solid #f7701d;
+}
+.Eamail-ref button {
+  text-align: center;
+  width: 13%;
+  background-color: #f7701d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Ref-progess {
+  /* margin-top: -3rem; */
+  /* width: 100%; */
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+input::placeholder {
+  font-size: 13px;
+  font-weight: bold;
+  /* padding-left: 0.3rem; */
+  padding: 0rem 0rem 0.3rem 0.3rem;
+}
+.Ref-progess .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin-top: 1rem; */
+  /* padding-top: 2rem; */
+  /* width: 40%; */
+  /* padding: 6rem; */
+  /* text-align: center; */
+
+  /* margin: 4rem; */
+
+  gap: 1rem;
+}
+.img1 {
+  margin-top: 2.5rem;
+  /* margin-bottom: 0%; */
+  width: 50%;
+  height: 80%;
+  /* border: 1px solid blue; */
+
+}
+.img12 {
+  margin-top: 2.5rem;
+  /* margin-bottom: 0%; */
+  width: 32%;
+  height: 80%;
+}
+.row p {
+  margin: 0%;
+  /* font-size: ; */
+  font-weight: 600;
+}
+.Ref-progess span .hr-1 {
+  border: 3px solid #52ab1c;
+  width: 250px;
+
+  border-radius: 5px;
+  margin: 0rem -1rem 0rem -1rem;
+  /* position: relative; */
+  /* top: 9.5rem; */
+  /* right: 6.5rem; */
+}
+.Ref-progess span .hr-2 {
+  border: 3px solid #52ab1c;
+  width: 275px;
+  border-radius: 5px;
+  margin: 0rem -2.5rem 0rem -1rem;
+  /* position: relative; */
+  /* top: 9.5rem;
+    right: 6.5rem; */
+}
+.Track-img {
+  margin-top: -5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+    .Ref-progess {
+        margin-top: -3rem;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+        /* border: 3px solid red; */
+        padding: 6rem;
+        width: 101%;
+        /* padding-left: 20px; */
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .Ref-progess span .hr-1 {
+        border: 3px solid #52AB1C;
+        width: 208px;
+        border-radius: 5px;
+        margin: 0rem -1rem 0rem -1rem;
+        /* position: relative; */
+        /* top: 9.5rem; */
+        /* right: 6.5rem; */
+    }
+    .Ref-progess span .hr-2 {
+        border: 3px solid #52AB1C;
+        width: 196px;
+        border-radius: 5px;
+        margin: 0rem -2.5rem 0rem -1rem;
+        /* position: relative; */
+    }
+}
+@media only screen and (min-width: 701px) and (max-width: 800px) {
+    .Ref-progess {
+        margin-top: -3rem;
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        /* justify-content: space-evenly; */
+        /* border: 3px solid red; */
+        padding: 7rem 2rem 7rem 2rem;
+        /* width: 85%; */
+        /* padding-left: 20px; */
+    }
+    .Ref-progess span .hr-1 {
+        border: 3px solid #52ab1c;
+        width: 144px;
+        border-radius: 5px;
+        margin: 0rem -1rem 0rem -1rem;
+        /* position: relative; */
+        /* top: 9.5rem; */
+        /* right: 6.5rem; */
+    }
+    .Ref-progess span .hr-2 {
+        border: 3px solid #52ab1c;
+        width: 131px;
+        border-radius: 5px;
+        margin: 0rem -2rem 0rem -1rem;
+        /* position: relative; */
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .Eamail-ref {
+        width: 73%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        justify-content: center;
+        gap: 2rem;
+        z-index: 9;
+    }
+    .Eamail-ref input {
+        width: 100%;
+        font-size: x-large;
+        margin-left: 0rem;
+        /* border-radius: 8px; */
+        border: 3px solid #f7701d;
+    }
+    .Eamail-ref button {
+      text-align: center;
+      width: 30%;
+      background-color: #f7701d;
+      border: none;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    
+    .Eamail-ref {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      justify-content: center;
+      gap: 1rem;
+      /* border: 3px solid blue; */
+      z-index: 9;
+    }
+    
+    .Ref-progess span .hr-1 {
+        border: 3px solid #52ab1c;
+        width: 127px;
+        border-radius: 5px;
+        margin: 0.5rem 0rem 0rem 0rem;
+        /* position: relative; */
+        /* top: 9.5rem; */
+        /* right: 6.5rem; */
+    }
+    .Ref-progess span .hr-2 {
+        border: 3px solid #52ab1c;
+        width: 131px;
+        border-radius: 5px;
+        margin: 0.5rem 0rem 0rem 0rem;
+        /* position: relative; */
+    }
+}
+@media only screen and (min-width: 201px) and (max-width: 400px) {
+  .Track_referal_content {
+    display: flex;
+    flex-direction: column-reverse;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    /* background-image: url(http://localhost:3000/static/media/Navbarbackground.e870770….jpeg); */
+}
+.Eamail-ref input {
+  width: 20%;
+  font-size: x-large;
+  margin-left: -2.5rem;
+  padding: .3rem;
+  /* border-radius: 8px; */
+  border: 3px solid #f7701d;
+}
+.Eamail-ref button {
+  text-align: center;
+  width: 30%;
+  background-color: #f7701d;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.Eamail-ref {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  gap: 1rem;
+  /* border: 3px solid blue; */
+  z-index: 9;
+}
+.TrackReferralDashboard {
+  width: 100%;
+  /* border: 5px solid green; */
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 15vh;
+  bottom: 6vh;
+  align-items: flex-start;
+  padding-top: 2rem;
+  height: auto;
+  margin-right: 0px;
+  /* overflow-y: scroll; */
+  /* border: 3px solid yellow; */
+  overflow-x: hidden;
+}
+.TrackReferral {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 5px solid red; */
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid greenyellow; */
+}
+.Eamail-ref input {
+  width: 100%;
+  font-size: x-large;
+  margin-left: 0rem;
+  border-radius: 8px;
+  border: 3px solid #f7701d;
+}
+.Ref-progess {
+  margin-top: 2rem;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  /* border: 3px solid red; */
+  padding: 0rem;
+  /* width: 85%; */
+  /* padding-left: 20px; */
+}
+.Ref-progess .row {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  text-align: center;
+  /* margin-top: 1rem; */
+  /* padding-top: 2rem; */
+  /* width: 40%; */
+  /* padding: 6rem; */
+  /* text-align: center; */
+  /* border: 1px solid blue; */
+  /* margin: 4rem; */
+  gap: 0rem;
+}
+.Ref-progess span .hr-1 {
+  border: 3px solid #52ab1c;
+  width: 5px;
+  height: 15vh;
+  border-radius: 5px;
+  margin: 0rem 0rem 0rem 0rem;
+  /* position: relative; */
+  /* top: 9.5rem; */
+  /* right: 6.5rem; */
+}
+.Ref-progess span .hr-2 {
+  border: 3px solid #52ab1c;
+  width: 5px;
+  height: 15vh;
+  border-radius: 5px;
+  margin: 0rem 0rem 0rem 0rem;
+  /* position: relative; */
+}
+.img1 {
+  margin-top: 0rem;
+  /* margin-bottom: 0%; */
+  width: 50%;
+}
+.img12 {
+  margin-top: 0rem;
+  /* margin-bottom: 0%; */
+  width: 50%;
+  /* height: 80%; */
+}
+  
+}

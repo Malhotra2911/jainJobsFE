@@ -1,0 +1,76 @@
+.DropDown{
+    width: 22%;
+    height: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top:16%;
+    right: 15%;
+    border: 10px solid green;
+    margin: 0%;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /* background-color: gray; */
+    background: #F2F2F2;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    position: relative;
+    border-radius: 10px;
+}
+.v1{
+    border: 1px solid #F7701D;
+    width: 100%;
+}
+.dropdown p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #464353;
+    cursor: pointer;
+}
+.DropDown-ChangeTheme{
+    width: 14.5%; 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: fixed;
+    right: 0.3rem;
+    margin-top: 8%;
+    /* justify-content: flex-start; */
+
+    /* margin-left: -66.1rem; */
+    /* border-radius: 20px; */
+    /* border: 2px solid green; */
+     
+}
+.drop-down-theme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+    bottom: 9rem;
+    border-radius: 15px;
+
+}
+@media only screen and (min-width:201px) and (max-width:700px){
+    .DropDown{
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        top:10%;
+        left: 15%;
+    }
+
+}

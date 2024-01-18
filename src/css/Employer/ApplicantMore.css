@@ -1,0 +1,109 @@
+.applicantmore_main_container{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0%;
+  left: 0%;
+  margin: 0rem 0rem 0rem 9rem;
+  z-index: 999;
+  margin: auto;
+  background: rgba(32,32,32,.7);
+
+}
+.applicant_more_container{
+  width: 40%;
+  background-image: url("../../../public/employer/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow-y: scroll;
+  margin-top: 1rem;
+height: 70vh;
+}
+.applicantcard_content{
+    width: 90%;
+    /* height: 80vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 4rem;
+    /* overflow-y: scroll;
+    border-radius: 10px;
+    padding: 3rem 2rem 3rem 2rem;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25); */
+}
+.address_desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2rem;
+  }
+  .desc {
+    display: flex;
+    flex-direction: row;
+    /* height: 40px; */
+    height: auto;
+    width: 100%;
+  }
+  .details2 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .details1 {
+    width: 50%;
+    padding-left: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .break_line_profile {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 0%;
+  }
+  .details1 h5 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0%;
+  }
+  .details2 p {
+    font-family: "Poppins";
+    align-items: center;
+    /* text-align: center; */
+    font-size: 13px;
+    justify-content: center;
+    /* text-align: center; */
+  }
+  @media only screen and (min-width: 200px) and (max-width: 500px) {
+  }
+  @media only screen and (max-width:650px){
+    .applicant_more_container{
+      width: 90%;
+    }
+    .desc{
+      height: auto;
+    }
+
+  }
+  @media only screen and (max-width:950px){
+    .applicant_more_container{
+      width: 80%;
+  
+    }
+  }

@@ -1,0 +1,787 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Poppins";
+}
+.signuplogin_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: #03a9f4; */
+  transition: 0.5;
+
+}
+.container {
+  position: relative;
+  width: 80%;
+  height: 550px;
+  margin: 20px;
+  background: #ff0;
+
+}
+
+.blueBg {
+  position: absolute;
+  /* top: 40px; */
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(255, 255, 255, 0.2); */
+  box-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(rgba(65, 63, 63, 0.7), rgba(63, 61, 61, 0.7)), url("../../../public/jobseeker/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* opacity: 0.9; */
+  background-position: 0 0;
+}
+.blueBg .box {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.blueBg .box h1 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 600;
+  line-height: 45px;
+  margin-bottom: 10px;
+}
+.blueBg .box h4 {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+.blueBg .box button {
+  cursor: pointer;
+  /* padding: 10px 20px; */
+  height: 40px;
+  justify-content: center;
+  /* background: #fff; */
+  color: #ffffff;
+  width: 24%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  background: rgba(247, 112, 29, 0.8);
+  border-radius: 10px;
+  font-size: 17px;
+  border: none;
+}
+.formBx {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  /* border: 2px solid red; */
+
+  height: 100%;
+  background: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+.formBx.active {
+  left: 50%;
+  /* z-index: 1000; */
+  background: white;
+}
+.formBx .form {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  /* padding: 50px; */
+  transition: 0.5s;
+}
+.formBx .signinForm {
+  transition-delay: 0.25s;
+}
+.active .signinForm {
+  left: -100%;
+  /* transition: 5s delay; */
+  /* border: 43px solid green;
+    background: red; */
+  transition-delay: 0s;
+}
+
+.formBx .signupForm {
+  left: 100%;
+}
+.active .signupForm {
+  left: 0;
+}
+.formBx .form form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid green; */
+}
+.formBx .form form h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.formBx .form form input {
+  width: 100%;
+  /* margin-bottom: 20px; */
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  border: 1px solid #333;
+}
+.formBx .form form input[type="submit"] {
+  background: #03a9f4;
+  border: none;
+  color: #fff;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.password_view{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.signup_Page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: 0rem 0rem 5rem 0rem;
+}
+
+.form_container_loginsignup {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  width: 80%;
+  max-width: 100%;
+  min-height: 600px;
+  margin-top: 2rem;
+  font-family: poppins, sans-serif;
+  /* padding: .5rem; */
+}
+
+.form_container form {
+  width: 100%;
+  /* border: 2px solid red; */
+  background: #ffff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.form_container {
+  position: absolute;
+  /* border: 2px solid green; */
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.signup {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+.Form-Row1 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+  width: 80%;
+}
+.Form-Row {
+  /* border: 2px solid blue; */
+  width: 80%;
+}
+
+.form_container label {
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  margin-left: 1.2rem;
+  /* border:2px solid red; */
+}
+.Form-Row1 input {
+  width: 95%;
+  display: flex;
+  /* justify-content: center;
+      align-items: center; */
+  padding: 1.8rem;
+  border: 1px solid rgba(247, 112, 29, 0.8);
+  box-sizing: border-box;
+  border-radius: 2rem;
+  font-size: 15px;
+  /* margin-left: -3rem; */
+}
+
+.Form-Row input {
+  width: 97%;
+  display: flex;
+  /* justify-content: center;
+      align-items: center; */
+  padding: 1rem;
+  border: 1px solid rgba(247, 112, 29, 0.8);
+  box-sizing: border-box;
+  border-radius: 2rem;
+  font-size: 15px;
+
+  /* margin-left: -3rem; */
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid green; */
+}
+
+.checkbox input {
+  /* margin-left: 1.5rem; */
+  margin: -0.3rem -1.5rem 0rem 1.5rem;
+  /* border: 2px solid yellow; */
+  /* font-size: 25px; */
+  transform: scale(1.7);
+}
+
+.checkbox label {
+  width: 9%;
+  margin-left: 1rem;
+  /* margin-bottom: 1.1rem; */
+  /* border: 2px solid blue; */
+}
+
+.checkbox p {
+  font-weight: 500;
+  /* margin: 0%;
+    padding: 0%; */
+  /* border: 2px solid red; */
+}
+
+.signupbtn {
+  /* width: 50%; */
+  width: 80%;
+  border: none;
+  padding: 1rem;
+  /* margin-left: 1.9rem; */
+  margin-bottom: 1.3rem;
+  /* height: 10vh; */
+  border-radius: 50px;
+  background: rgba(247, 112, 29, 0.39);
+  font-size: large;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.other .buttonn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.btn-grp-Gf {
+  width: 40%;
+  /* border: 5px solid green; */
+  cursor: pointer;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-radius: 30px;
+  border: none;
+  padding: 0.4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* gap: 1rem; */
+  font-size: 17px;
+  color: #898787;
+  font-weight: 500;
+  border: 1px solid #898787;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.btn-grp-Gf img {
+  width: 18%;
+}
+
+.btn-grp-lf {
+  width: 60%;
+  cursor: pointer;
+  border-radius: 30px;
+  background: transparent;
+  padding: 0.7rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 17px;
+  font-weight: 300;
+  border: 1px solid #f7701d;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.btn-grp-lf img {
+  width: 10%;
+}
+
+.form_container.login {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.login {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.loginbtn_lf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.log {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* border: 5px solid yellow; */
+  width: 60%;
+}
+
+.log label {
+  text-align: justify;
+  font-size: large;
+  font-weight: bold;
+  /* margin-left: -2.1rem; */
+}
+
+.log input {
+  border: 1px rgba(247, 112, 29, 0.8) solid;
+  width: 100%;
+  padding: 1rem;
+  /* margin-left: -3rem; */
+  border-radius: 2rem;
+}
+
+.password {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 1rem;
+  /* border: 2px solid red; */
+  /* left: 17rem; */
+  /* top: -5px; */
+}
+.password_link {
+  width: 100%;
+  /* border: 5px solid green; */
+  display: flex;
+  /* align-items: flex-start; */
+  justify-content: flex-end;
+  /* text-align: right; */
+}
+
+.login-btn {
+  width: 60%;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  background: rgba(247, 112, 29, 0.39);
+  color: black;
+  /* border: 1px rgba(247, 112, 29, 0.8) solid; */
+  font-size: large;
+  border: none;
+  margin-bottom: 1rem;
+  /* margin-left: 3.2rem; */
+}
+
+.btn_login {
+  width: 25%;
+  height: 40px;
+  font-size: 17px;
+  font-family: "Poppins";
+  border: none;
+  background: rgba(247, 112, 29, 0.8);
+  padding: 0.4rem;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn_signup {
+  width: 25%;
+  height: 40px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 17px;
+  border: none;
+  background: rgba(247, 112, 29, 0.8);
+  padding: 0.4rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.content_container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+
+.Content {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../public/jobseeker/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+
+  color: #ffffff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .btn_signup {
+    width: 35%;
+    height: 40px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    background: rgba(247, 112, 29, 0.8);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .checkbox input {
+    /* margin-left: 1.5rem; */
+    margin: -0.3rem -1.5rem 0rem 0.5rem;
+    /* border: 2px solid yellow; */
+    /* font-size: 25px; */
+    transform: scale(1.7);
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .btn_signup {
+    width: 35%;
+    height: 40px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    background: rgba(247, 112, 29, 0.8);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .btn_login {
+    width: 35%;
+    height: 40px;
+    font-size: 17px;
+    font-family: "Poppins";
+    border: none;
+    background: rgba(247, 112, 29, 0.8);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .checkbox input {
+    /* margin-left: 1.5rem; */
+    margin: -0.3rem -1.5rem 0rem 0.5rem;
+    /* border: 2px solid yellow; */
+    /* font-size: 25px; */
+    transform: scale(1.7);
+  }
+  .btn-grp-lf {
+    width: 80%;
+    cursor: pointer;
+    /* margin-left: 2.9rem; */
+    border-radius: 30px;
+    background: transparent;
+    padding: 0.7rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #f7701d;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  .log {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 5px solid yellow; */
+    width: 80%;
+  }
+  .login-btn {
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(247, 112, 29, 0.39);
+    color: black;
+    /* border: 1px rgba(247, 112, 29, 0.8) solid; */
+    font-size: large;
+    border: none;
+    margin-bottom: 1rem;
+    /* margin-left: 3.2rem; */
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+  .form_container_loginsignup {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    position: relative;
+    overflow: hidden;
+    width: 94%;
+    max-width: 100%;
+    min-height: 600px;
+    margin-top: 2rem;
+    font-family: poppins, sans-serif;
+    /* padding: 0.5rem; */
+  }
+  .Form-Row1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+  }
+  .Form-Row {
+    /* border: 2px solid blue; */
+    width: 95%;
+  }
+  .checkbox input {
+    /* margin-left: 1.5rem; */
+    margin: -0.3rem 0rem 0rem -0.2rem;
+    /* border: 2px solid yellow; */
+    /* font-size: 25px; */
+    transform: scale(1.7);
+  }
+  .btn_login {
+    width: 39%;
+    height: 40px;
+    font-size: 17px;
+    font-family: "Poppins";
+    border: none;
+    background: rgba(247, 112, 29, 0.8);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn_signup {
+    width: 45%;
+    height: 40px;
+    font-family: "Poppins";
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+    background: rgba(247, 112, 29, 0.8);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .btn-grp-lf {
+    width: 80%;
+    cursor: pointer;
+    /* margin-left: 2.9rem; */
+    border-radius: 30px;
+    background: transparent;
+    padding: 0.7rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #f7701d;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+  .log {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* border: 5px solid yellow; */
+    width: 80%;
+  }
+  .login-btn {
+    width: 80%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    background: rgba(247, 112, 29, 0.39);
+    color: black;
+    /* border: 1px rgba(247, 112, 29, 0.8) solid; */
+    font-size: large;
+    border: none;
+    margin-bottom: 1rem;
+    /* margin-left: 3.2rem; */
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 400px;
+    height: 729px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+  .container .blueBg {
+    top: 0;
+    height: 100%;
+  }
+  .formBx {
+    width: 100%;
+    height: 500px;
+  }
+  .formBx {
+    width: 100%;
+    height: 570px;
+    top: 0;
+    box-shadow: none;
+  }
+  .blueBg .box {
+    position: absolute;
+    width: 100%;
+    height: 165px;
+    bottom: 0;
+  }
+  .signin {
+    top: 0;
+  }
+  .formBx.active {
+    left: 0;
+    top: 185px;
+  }
+  .blueBg .box h1 {
+    color: #ffffff;
+    font-family: "Poppins";
+    font-style: normal;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+/* .formBx .form {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 3px solid;
+    padding: 50px;
+    transition: 0.5s;
+} */
+.Form-Row1 {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.Form-Row {
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+.btn-grp-lf {
+    width: 90%;
+    cursor: pointer;
+    /* margin-left: 2.9rem; */
+    border-radius: 30px;
+    background: transparent;
+    padding: 0.7rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    font-size: 17px;
+    font-weight: 300;
+    border: 1px solid #f7701d;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+.log {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    /* border: 5px solid yellow; */
+    width: 90%;
+}
+
+}

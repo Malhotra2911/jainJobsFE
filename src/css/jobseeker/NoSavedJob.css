@@ -1,0 +1,26 @@
+.NoSavedJob{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.NoSaved{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+.head{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    
+}
+.tail{
+    margin-top: -2rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1rem;
+}

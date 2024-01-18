@@ -1,0 +1,118 @@
+.usefilter1_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+}
+.usefilter1_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /* height: 60%; */
+    /* margin-top: -1.5rem; */
+    /* border: 1px solid red; */
+gap: 2rem;
+}
+.usefilter1_form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    
+}
+.linkedin_LI{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: .5rem;
+
+}
+.linkedin_LI label{
+/* margin-left: .8rem; */
+color: #898787;
+}
+/* .linkedin_LI select{
+    padding: .8rem;
+    border: 2px solid #F7701D;
+    border-radius: 10px;
+}
+.linkedin_LI option{
+    color:#898787
+} */
+.form-row{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: .8rem;
+    gap: .3rem;
+
+}
+/* .form-rowSalary{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.form-rowSalary label{
+    justify-content: flex-start;
+    align-items: flex-start;
+} */
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+.usefilter1_form form{
+    gap:.2rem;
+    margin-top: -1rem;
+
+}    
+
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .usefilter1_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+        margin-top: -1rem;
+        /* border: 2px solid red; */
+    
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .usefilter1_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .3rem;
+        margin-top: -1rem;
+        /* border: 2px solid red; */
+    
+    }
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .usefilter1_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        margin-top: -1rem;
+        /* border: 2px solid red; */
+    
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1200px) {
+    .usefilter1_form form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* gap: .1rem; */
+        margin-top: -1rem;
+        /* border: 2px solid red; */
+    
+    }
+}
+
+

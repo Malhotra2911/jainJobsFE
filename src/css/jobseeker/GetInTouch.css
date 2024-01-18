@@ -1,0 +1,111 @@
+.contact_container {
+  margin: 2rem 0rem 2rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left_contact_content {
+  width: 37%;
+  background: rgba(140, 221, 220, 0.5);
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.contact_img {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-position:left bottom;
+  background-repeat: no-repeat;
+  background-image: url('../../../public/jobseeker/contactleftimg.png');
+}
+.left_contact {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+  justify-content: space-evenly;
+}
+.message_link_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+}
+.right_contact {
+  width: 57%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+.right_contact_form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+
+}
+.contact_heading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+}
+.message_sub_head {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+}
+.input_div{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (min-width: 601px) and (max-width: 980px) {
+  .left_contact_content{
+    width: 45%;
+  }
+  .right_contact{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 201px) and (max-width: 580px) {
+  .contact_container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left_contact_content{
+    width: 95%;
+  }
+  .contact_img{
+    margin-right: 1rem;
+    background-position-x: right;
+  }
+  .left_contact{
+    margin-top: 2rem;
+  }
+  .right_contact {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .input_div{
+    flex-direction: column;
+
+  }
+  .css-i035sh-MuiButtonBase-root-MuiButton-root{
+    width: 50%;
+  }
+
+}

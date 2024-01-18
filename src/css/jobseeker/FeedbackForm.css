@@ -1,0 +1,159 @@
+.feedback_container1{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.7);
+}
+.container_feedback{
+    display: flex;
+    flex-direction: column;
+    height:550px;
+    width: 30%;
+    align-items: center;
+    background-position: top right ;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-image: url("../../../public/jobseeker/Frame4.png");
+}
+.feedbackCloseBtn{
+    width: 100%;
+
+}
+.feedbackCloseBtn button{
+    float: right;
+    margin: 10px 10px -10px 10px ;
+    font-size: 15px ;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: 7px;
+    color: #000000;
+
+}
+.feedback_form{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    /* border:  3px solid yellow; */
+    line-height: 72px;
+    color: #000000;
+}
+.formtag{
+    display: flex;
+    flex-direction: column;
+    /* border:  3px solid red; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+}
+.form_div1{
+    height: 100%;
+    width: 100%;
+    /* border: 5px solid magenta; */
+}
+.feedbackinput{
+    width: 100%;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #F77010;
+    padding: 0.5rem 0rem 0.5rem 0.4rem;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+.feedbackinputtextarea{
+    width: 100%;
+    /* height: 10vh; */
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #F77010;
+    padding: 0.5rem 0rem 0.5rem 0.4rem;
+    margin: 1rem 0rem 2.8rem 0rem;
+
+}
+.feedbackinputtextarea::placeholder{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #898787;
+    line-height: 5px;
+}
+::placeholder{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 48px;
+    color: #898787;
+}
+.feedback_btn{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: rgba(247, 112, 29, 0.39);
+    border-radius: 10px;
+    width: 90%;
+    height: 40px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    border: none;
+    line-height: 22px;
+    color: #000000;
+    justify-content: center;
+    cursor: pointer;
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+.container_feedback{
+    width: 80%;
+}
+.feedback_form{
+    line-height: 30px;
+    font-size: 30px;
+}
+
+
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .container_feedback{
+        width: 80%;
+        margin: 2rem  0rem 0rem -1rem;
+    }
+}    
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .container_feedback{
+        width: 80%;
+        /* margin-top: -18rem; */
+        /* height: 60%; */
+        margin-left: -3rem;
+    }
+}    
+@media only screen and (min-width: 900px) and (max-width: 1270px) {
+    .container_feedback{
+        width: 60%;
+        /* margin-top: -22rem; */
+        /* height: 60%; */
+        margin-left: -3rem;
+    }
+}    
+
+
+
+
+
+
+
+
+

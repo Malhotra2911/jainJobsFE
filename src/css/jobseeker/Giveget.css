@@ -1,0 +1,58 @@
+.get_container{
+    width: 100%;
+    display: flex;
+    padding: 2rem 2rem 2rem 2.5rem;
+    flex-direction: column;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+}
+.left_get{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right_get{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.get_heading{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 600;
+text-align: left;
+margin-left: 0rem;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+
+}
+.get_give_img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 201px) and (max-width: 580px) {
+    .get_container{
+        flex-direction: column-reverse;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .left_get{
+        width: 100%;
+        align-items: center;
+    }
+    .css-htq84w-MuiButtonBase-root-MuiButton-root{
+        width: 40%;
+    }
+    .right_get{
+        width: 100%;
+    }
+
+
+}

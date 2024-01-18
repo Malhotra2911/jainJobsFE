@@ -1,0 +1,93 @@
+.addscreeninqnmain_container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.8);
+
+}
+.addscreeningqn_containerr{
+    width: 45%;
+    height: 45vh;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(31, 30, 30, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    background-image: url("../../../public/employer/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55vh;
+}
+.screeningquestion_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+
+}
+
+.sq_main{
+    width: 90%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+
+}
+.screeningqn_btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+.btn_sq{
+  width: 60%;  
+}
+@media only screen and (min-width:200px ) and (max-width:400px) {
+    .addscreeningqn_containerr{
+width: 90%;
+
+}
+
+
+}
+@media only screen and (min-width:400px ) and (max-width:600px) {
+    .addscreeningqn_containerr{
+width: 90%;
+height: auto;
+
+}
+}
+@media only screen and (min-width:600px ) and (max-width:900px) {
+    .addscreeningqn_containerr{
+width: 90%;
+height: auto;
+
+}
+}
+@media only screen and (min-width:900px ) and (max-width:1280px) {
+    .addscreeningqn_containerr{
+width: 50%;
+height: auto;
+
+}
+.sq_main{
+    gap: 1rem;
+}
+}

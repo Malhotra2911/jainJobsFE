@@ -1,0 +1,135 @@
+.personaldetailcont_main {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    top: 0%;
+    left: 0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32, 32, 32, .7);
+
+}
+
+.personaldetail_container {
+    top: 10%;
+    left: 30%;
+    position: fixed;
+    width: 45%;
+    padding: 1rem;
+    height: 80%;
+    overflow-y: scroll;
+    background-color: white;
+    background-image: linear-gradient(to right bottom, #FFFFFF, rgba(21, 185, 184, 0.6));
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+
+}
+
+.PersonalDetails {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100%; */
+    align-items: center;
+    padding: 3rem;
+    gap: 1.5rem;
+
+}
+
+.PersonalDetails h2 {
+    text-align: center;
+}
+
+.FML-Name {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.Name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.Name input {
+    width: 85%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 3px solid #F7701D;
+}
+
+.Name label {
+    color: #898787;
+}
+
+.DOB {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.DOB label {
+    color: #898787;
+}
+
+.DOB input {
+    width: 95%;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 3px solid #F7701D;
+    padding: 1rem;
+}
+
+.button_p_ss {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.btn_p_ss {
+    width: 15%;
+    border: none;
+    background: #F7701D;
+    border-radius: 4px;
+    padding: .4rem;
+    color: #ffff;
+
+}
+@media only screen  and (max-width: 1024px) {
+    .personaldetail_container{
+        width: 90%;
+      }  
+     
+}
+@media only screen  and (max-width: 650px) {
+  .personaldetail_container{
+    width: 90%;
+  } 
+  .PersonalDetails{
+    padding: 0rem;
+  } 
+  .FML-Name{
+    gap: 0;
+  }
+  .btn_p_ss{
+    width: 25%;
+    padding: .6rem;
+  }
+}

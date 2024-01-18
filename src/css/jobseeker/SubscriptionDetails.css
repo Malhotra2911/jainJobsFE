@@ -1,0 +1,90 @@
+.Subscription_page_content {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-items: center;
+    overflow-y: scroll;
+    /* justify-content:center; */
+    /* border: 5px solid yellow; */
+    height: 80vh;
+    margin: auto 0% auto 0%;
+    /* margin-top: ; */
+}
+
+.plan_details_section {
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 5px solid black; */
+}
+
+.subscription_details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* display: contents; */
+}
+
+.plan_heading {
+    font-weight: 700;
+
+}
+
+.purchesPlan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.plan_detain_name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(148, 145, 145);
+}
+
+.old_plan_card {
+    width: 95%;
+    /* border: 3px solid green; */
+    margin-top: 2rem;
+}
+.bill_inside{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 201px) and (max-width: 580px) {
+
+    .Subscription_page_content {
+        height: auto;
+        position: fixed;
+        top: 10%;
+        bottom: 10%;
+    }
+    .plan_details_section {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .subscription_details{
+        align-items: flex-start;
+        padding-left: 0.5rem;
+    }
+    .old_plan_card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

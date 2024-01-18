@@ -1,0 +1,448 @@
+.Track_your_job {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* background-image: url("../assets/Navbarbackground.jpeg"); */
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  /* border: 2px solid red; */
+}
+.Application_Track {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* border: 2px solid red; */
+
+}
+.Application_track_container {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* grid-template-columns: 20% 80%; */
+  align-items: center;
+  margin-top: 2rem;
+  margin-left: -1.6rem;
+  gap: 2rem;
+  font-family: "Poppins", sans-serif;
+  height: 60vh;
+  overflow-y: scroll;
+}
+.inputsections {
+  width: 82%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1rem;
+    /* border:2px solid red */
+
+}
+.inputsections input {
+  border: 3px solid #f7701d;
+  border-radius: 10px;
+  padding: 0.3rem;
+}
+.inputsections .search {
+  background: #f7701d;
+  border-radius: 10px;
+  border: none;
+  width: 10%;
+  padding: 0.5rem;
+  color: white;
+}
+.Status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+    /* border:2px solid red */
+
+}
+.TrackApplication_Cards_Section {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-row-gap: 2rem;
+}
+.TrackData_Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+.Track_Card {
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.JOB_Name {
+  width: 100%;
+}
+.Track_Card h2 {
+  margin: 0%;
+}
+.Track_Card h4 {
+  margin: 0%;
+  color: #898787;
+}
+.applicationTrack-SideBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progressbar_container {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.progressbar_track{
+  display: flex;
+  
+  /* width: 80vw; */
+  width: 100%;
+  /* align-items: center; */
+  flex-direction: row;
+  margin-top: 2rem;
+  
+}
+.track_icon_div{
+  width: 25px;
+  border-radius: 50%;
+  align-items: flex-end;
+  /* border: 2px solid green; */
+  height:25px ;
+  background: green;
+}
+.track_div{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  /* width: 15vw; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: -1rem;
+
+}
+.track_div_last{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  /* width: 30%; */
+  width: 15vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+  margin-top: -.5rem;
+
+
+
+}
+.jobtrackprocess{
+  height: 10px;
+  width: 20vw;
+  background: green;
+  border-radius: 15px;
+  margin-left: -5rem;
+  margin-right: -5rem;
+  /* margin: 0rem -2rem 0rem -3.3rem ; */
+}
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .progressbar_track{
+    display: flex;
+    /* border: 3px solid blue; */
+    width: 90vw;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+  }
+  .track_icon_div{
+    width: 25px;
+    border-radius: 50%;
+    align-items: flex-end;
+    /* border: 2px solid green; */
+    height:25px ;
+    background: green;
+  }
+  .track_div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 15vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .track_div_last{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 15vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .jobtrackprocess{
+    height: 10px;
+    width: 17vw;
+    background: green;
+    border-radius: 15px;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    /* margin: 0rem -2rem 0rem -3.3rem ; */
+  }
+}
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .track_div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 18vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .track_div_last{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 18vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .jobtrackprocess{
+    height: 10px;
+    width: 17vw;
+    background: green;
+    border-radius: 15px;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    /* margin: 0rem -2rem 0rem -3.3rem ; */
+  }
+}
+@media only screen and (min-width: 801px) and (max-width: 901px) {
+  .track_div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 18vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .track_div_last{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 18vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .jobtrackprocess{
+    height: 10px;
+    width: 17vw;
+    background: green;
+    border-radius: 15px;
+    margin-left: -4rem;
+    margin-right: -4rem;
+    /* margin: 0rem -2rem 0rem -3.3rem ; */
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .progressbar_track{
+    display: flex;
+    /* border: 3px solid blue; */
+    width: 80vw;
+    /* align-items: center; */
+    flex-direction: row;
+  }
+  .track_icon_div{
+    width: 25px;
+    border-radius: 50%;
+    align-items: flex-end;
+    /* border: 2px solid green; */
+    height:25px ;
+    background: green;
+  }
+  .track_div{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 15vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .track_div_last{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    /* width: 30%; */
+    width: 15vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+  }
+  .jobtrackprocess{
+    height: 10px;
+    width: 20vw;
+    background: green;
+    border-radius: 15px;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    /* margin: 0rem -2rem 0rem -3.3rem ; */
+  }
+
+}
+@media only screen and (min-width: 201px) and (max-width: 600px) {
+  .Application_track_container {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 7vh;
+    bottom: 5vh;
+    /* align-items: flex-start; */
+    /* grid-template-columns: 20% 80%; */
+    align-items: center;
+    margin-top: 2rem;
+    margin-left:0rem;
+    gap: 2rem;
+    font-family: "Poppins", sans-serif;
+    height: 75vh;
+    /* overflow:none ; */
+    overflow-y: scroll;
+    /* border:2px solid red */
+  }
+  .Track_your_job {
+    display: flex;
+    flex-direction: column-reverse;
+    /* background-image: url("../assets/Navbarbackground.jpeg"); */
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+  .TrackApplication_Cards_Section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 35% 35% 35%; */
+    /* grid-row-gap: 2rem; */
+    gap: 1.5rem;
+    /* border: 3px solid; */
+  }
+  .Track_Card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 1rem; */
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+    border-radius: 10px;
+    gap: 0rem;
+    /* padding-top: 1rem; */
+    /* border: 3px solid red; */
+    /* padding-bottom: 1rem; */
+  }
+  .inputsections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .inputsections .search {
+    background: #f7701d;
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+    padding: 0.5rem;
+    color: white;
+  }
+  .progressbar_container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .progressbar_track{
+  display: flex;
+  /* border: 3px solid blue; */
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.track_icon_div{
+  width: 25px;
+  border-radius: 50%;
+  align-items: flex-end;
+  /* border: 2px solid green; */
+  height:25px ;
+  background: green;
+}
+.track_div{
+  display: flex;
+  flex-direction: column-reverse;
+  /* border: 2px solid red; */
+  /* width: 30%; */
+  width: 15vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.track_div_last{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  /* width: 30%; */
+  width: 15vw;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+.jobtrackprocess{
+  height: 20vh;
+  width: 10px;
+  background: green;
+  border-radius: 15px;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  /* margin: 0rem -2rem 0rem -3.3rem ; */
+}
+}

@@ -1,0 +1,391 @@
+.availjon_main {
+  display: flex;
+  flex-direction: row;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  /* background-image: url("../assets/Navbarbackground.jpeg"); */
+}
+
+.Job_Card_Content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.JOB-Seeker-Cards-Section {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* justify-content: center; */
+  margin-left: 0rem;
+  margin-bottom: -2rem;
+  padding: 1rem 0rem 0rem 1rem;
+  overflow-y: scroll;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+  height: 75vh;
+}
+
+.JOB-Seeker-Card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.JOB-Card {
+  width: 85%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  gap: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding: 2rem;
+}
+
+.jobseeker_btns {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.Apply-JOB-Button {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Apply-JOB-BTN {
+  width: 40%;
+  display: flex;
+  height: 38px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0.25rem; */
+
+  background-color: rgba(247, 112, 29, 0.39);
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.JOB-Name {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.JOB-Name h3 {
+  margin: 0%;
+  line-height: 45px;
+}
+
+.JOB-Name h4 {
+  margin: 0%;
+  line-height: 32px;
+  color: #898787;
+  font-weight: 500;
+}
+
+.Reaction-Buttons {
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 3rem;
+
+}
+
+.RB {
+  width: 17%;
+  border: none;
+  background: #ffff;
+  cursor: pointer;
+
+}
+
+.RBS {
+  width: 17%;
+  border: none;
+  background: #ffff;
+  cursor: pointer;
+
+}
+
+.RBH {
+  width: 17%;
+  border: none;
+  background: #ffff;
+  cursor: pointer;
+
+}
+
+.RB img {
+  width: 80%;
+}
+
+.RBS img {
+  width: 50%;
+}
+
+.RBH img {
+  width: 65%;
+}
+
+.Dashboard-SideBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DropDown-Category {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.DropDown-Category:hover {
+  background-color: rgba(255, 255, 255, 0.619);
+  color: black;
+}
+
+.DropDown-Category-BTN {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7711d00;
+  border: none;
+  color: #303939;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.DropDown-Category-BTN:hover {
+  color: black;
+}
+
+.input_fieldd {
+  width: 87%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputfieldd {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.inputfieldd input {
+  width: 90%;
+  padding: .6rem;
+  border: 3px solid #F7701D;
+  border-radius: 15px;
+}
+
+@media only screen and (min-width:201px) and (max-width:600px) {
+  .JOB-Card {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 1rem;
+  }
+
+  .availjon_main {
+    display: flex;
+    flex-direction: column-reverse;
+    background-position: top;
+    background-repeat: no-repeat;
+    /* background-image: url(http://localhost:3000/static/media/Navbarbackground.e870770….jpeg); */
+    /* background-image: url("../assets/Navbarbackground.jpeg"); */
+  }
+
+  .JOB-Seeker-Cards-Section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    align-items: flex-start;
+    /* justify-content: center; */
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    padding: 1rem 0rem 0rem 1rem;
+    overflow-y: scroll;
+    gap: 1rem;
+    height: auto;
+  }
+
+  .JOB-Name h4 {
+    margin: 0%;
+    line-height: 26px;
+    color: #898787;
+    font-weight: 500;
+  }
+
+  .jobseeker_btns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Apply-JOB-Button {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Apply-JOB-BTN {
+    width: 100%;
+    display: flex;
+    height: 38px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* padding: 0.25rem; */
+    background-color: rgba(247, 112, 29, 0.39);
+    border: none;
+    border-radius: 10px;
+    font-family: "Poppins";
+    cursor: pointer;
+  }
+
+  .Reaction-Buttons {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .RBS,
+  .RBH,
+  .RB {
+    width: 25%;
+    border: none;
+    background: #ffff;
+    cursor: pointer;
+  }
+
+}
+
+/* @media only screen and (min-width:601px) and (max-width:1200px){
+  .JOB-Seeker-Cards-Section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 12vh;
+    bottom: 6vh;
+    align-items: flex-start;
+    margin-left: 0rem;
+    margin-bottom: 0rem;
+    padding: 1rem 0rem 0rem 1rem ;
+    overflow-y: scroll;
+    gap: 1rem;
+    height: 70vh;
+  }
+  .JOB-Card {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1rem;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+    border-radius: 20px;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 1rem;
+}
+  .availjon_main {
+    display: flex;
+    flex-direction: column-reverse;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+.JOB-Name h4 {
+  margin: 0%;
+  line-height: 26px;
+  color: #898787;
+  font-weight: 500;
+}
+.jobseeker_btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Apply-JOB-Button {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Apply-JOB-BTN {
+  width: 100%;
+  display: flex;
+  height: 38px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(247, 112, 29, 0.39);
+  border: none;
+  border-radius: 10px;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+.Reaction-Buttons {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.RBS,
+.RBH,
+.RB
+ {
+  width: 25%;
+  border: none;
+  background: #ffff;
+  cursor: pointer;
+}
+
+
+} */

@@ -1,0 +1,289 @@
+.Navbar_content_jobseeker {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+.navbar_header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(white, #e0f6f6);
+}
+
+.Navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
+}
+
+.Next_Page {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar a,
+.special_fmn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  margin: 0%;
+  cursor: pointer;
+}
+
+.navbar img {
+  cursor: pointer;
+}
+
+.navbar button {
+  width: 120%;
+  height: 43px;
+  background: #161412;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.createcard_maiN {
+  width: 84%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.mobile_menu_icon {
+  display: none;
+}
+
+.refercard_maiN {
+  width: 84%;
+}
+
+.combination_feedback_what_client {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #ECF9F9;
+}
+
+.combo_box {
+  width: 100%;
+  height: 250px;
+  background: white;
+  border-radius: 0% 0% 50% 50%;
+}
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .navbar {
+    gap: 1.6rem;
+  }
+
+  .navbar a {
+    font-size: 18px;
+  }
+
+  .special_fmn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) {
+  .navbar {
+    gap: 1.5rem;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  .navbar button {
+    width: 115%;
+    font-size: 18px;
+  }
+
+  .special_fmn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .navbar {
+    gap: 1.3rem;
+  }
+
+  .navbar a {
+    font-size: 16px;
+  }
+
+  .navbar button {
+    width: 120%;
+    font-size: 16px;
+  }
+
+  .special_fmn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+  }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  .navbar {
+    gap: 1.1rem;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  .navbar button {
+    width: 120%;
+    font-size: 12px;
+  }
+
+  .special_fmn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+  .navbar {
+    gap: 0.8rem;
+  }
+
+  .navbar a {
+    font-size: 12px;
+  }
+
+  .navbar button {
+    width: 120%;
+    font-size: 12px;
+  }
+
+  .special_fmn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width:201px) and (max-width:800px) {
+  .navbar {
+    display: none;
+  }
+
+  .Navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .navbarResponsive {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    top: 0;
+    padding-left: 1rem;
+    right: 0;
+  }
+
+  .navbarResponsive a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .navbarResponsive .special_fmn {
+    font-weight: 600;
+    color: black;
+    margin: 0%;
+    cursor: pointer;
+  }
+
+  .navbarResponsive button {
+    width: 115%;
+    /* height: 43px; */
+    background: #161412;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .navbar_header{
+    margin-top: 5%;
+  }
+
+  .navbar_header .mobile_menu_icon {
+    width: 100%;
+    text-align: end;
+    color: #F7701D;
+    background-color: white;
+    display: block;
+    font-size: 25px;
+    border: none;
+    padding: 3%;
+    font-weight: 1000;
+  }
+
+  .mobile_menu_icon {
+    width: 100%;
+    text-align: end;
+    color: #F7701D;
+    background-color: white;
+    display: block;
+    font-size: 25px;
+    border: none;
+    padding: 3%;
+    font-weight: 1000;
+  }
+}

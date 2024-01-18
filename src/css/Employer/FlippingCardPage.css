@@ -1,0 +1,203 @@
+*{
+    font-family: "Poppins";
+    font-style: normal;
+  }
+  .subscriptionFlippingcard_containers {
+    position: fixed;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* left: 4rem; */
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    background: transparent;
+    /* border: 3px solid green; */
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-image: url("../../../public/employer//backgroundnewnewimg.jpg");
+    margin: auto;
+  }
+  .top2_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .bottomtwocard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .flippingcard_container_main {
+    /* position: relative; */
+    width: 30%;
+    /* border: 3px solid blue; */
+    height: 70vh;
+    cursor: pointer;
+    margin-top: -1rem;
+  }
+  .instanthiringcard_main {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 2s linear;
+  
+    /* margin-top: 2rem; */
+    /* border: 3px solid yellow; */
+  }
+  .fliping_close_btn{
+  
+    width: 100%;
+    /* height: 2rem; */
+    display: flex;
+    justify-content: right;
+    /* border: 3px solid green; */
+  }
+  .fliping_close_btn button{
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    margin-bottom: -3rem;
+    margin-right: 1.5rem;
+    z-index: 3;
+  }
+  .instanthiring_frontcontent {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100%;
+    backface-visibility: hidden;
+    background: linear-gradient(180deg, #ffff 20%, #c4e7ed 80%);
+    /* background: linear-gradient(180deg,rgba(255,255,255,1) 0%,rgba(140,221,220,1) 69%); */
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  .instanthiring_frontcontent .Instant-Head h2 {
+    display: flex;
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .Instant-Head{
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .front_img_flip{
+    margin-left: 7rem;
+    width: 18%;
+    padding: 1.2rem 1.2rem 0rem 1.2rem;
+  }
+  
+  .content_li{
+    line-height: 27px;
+    font-family: "Poppins";
+    font-size: 0.7rem;
+  }
+  
+  .instanthiringcard_main:hover {
+    transform: rotateY(180deg);
+  }
+  .instanthiring_backcontent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 2rem;
+    background: linear-gradient(180deg, #ffff 20%, #c4e7ed 80%);
+    /* background: linear-gradient(180deg,rgba(255,255,255,1) 0%,rgba(140,221,220,1) 69%); */
+  
+    backface-visibility: hidden;
+    transform: rotatey(180deg);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  }
+  .instanthiring_backcontent .backcontent_img {
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+    width: 100%;
+    margin-top: 0.4rem;
+    /* align-items: flex-end; */
+  }
+  .backcontent_img img {
+    /* border: 3px solid green; */
+    width: 50%;
+    margin-right: -2rem;
+  
+    height: 100%;
+  }
+  
+  .instanthiring_backcontent h2 {
+    margin-left: 1.2rem;
+  }
+  .instanthiring_backcontent ul {
+    margin-top: -2rem;
+  }
+  .instanthiring_backcontent li {
+    /* margin-top: -2rem; */
+    line-height: 20px;
+  }
+  .front_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .btn_buynowF {
+    width: 30%;
+    border: none;
+    background: rgba(247, 112, 29, 0.39);
+    border-radius: 10px;
+    padding: 0.3rem;
+  } */
+  .back_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn_buynowF {
+    width: 40%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+    background: rgba(247, 112, 29, 0.39);
+    border-radius: 7px;
+    padding: 0.3rem;
+    height: 40px;
+  }
+  .btn_buynowBackend {
+    
+    width: 40%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    margin-top: 1rem;
+    background: rgba(247, 112, 29, 0.39);
+    border-radius: 7px;
+    padding: 0.3rem;
+    height: 40px;
+  }
+  

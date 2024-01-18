@@ -1,0 +1,84 @@
+.skill_cont{
+    width: 40%;
+    height: 50%;
+    top: 25%;
+    left: 30%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    background-image: linear-gradient(to right bottom, #FFFFFF, rgba(21, 185, 184, 0.6));
+    /* overflow-y: scroll; */
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 12px;
+
+
+}
+.skills_container  
+ {
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.skillsss{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+}
+.skillsss h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.skills_input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_s_ss{
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.btn_s_ss{
+    width: 25%;
+    border: none;
+    background: #F7701D;
+    border-radius: 4px;
+    padding: .4rem;
+    color: #ffff;
+}
+@media only screen  and (max-width: 1024px) {
+    .skill_cont{
+        width: 90%;
+      }  
+     
+}
+@media only screen  and (max-width: 650px) {
+  .skill_cont{
+    width: 90%;
+  } 
+  .PersonalDetails{
+    padding: 0rem;
+  } 
+  .FML-Name{
+    gap: 0;
+  }
+  .btn_s_ss{
+    width: 25%;
+    padding: .6rem;
+  }
+}

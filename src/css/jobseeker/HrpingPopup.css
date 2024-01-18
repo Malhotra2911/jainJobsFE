@@ -1,0 +1,119 @@
+.hrpingPP_container{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.8);
+}
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+.hrping_container{
+    width: 50%;
+    height: 50%;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(31, 30, 30, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+}
+.ping_containerr{
+    display: flex;
+    flex-direction: row;
+padding: .5rem;
+}
+.ping-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.6rem;
+}
+.ping-content p{
+  width: 100%;
+color:#F7701d;
+margin: 0;
+justify-content: flex-start;
+align-items: flex-start;
+cursor: pointer;
+
+}
+.ping-content h3{
+  margin: 0;
+}
+ .ping_img img{
+  width: 100%;
+  height: 90%;
+}
+@media only screen and (min-width:601px) and (max-width:900px){
+  .hrping_container{
+    width: 60%;
+    height: 40%;
+    
+    padding: 1rem;
+
+}
+
+}
+@media only screen and (min-width:400px) and (max-width:600px){
+  .hrping_container{
+    width: 70%;
+    height: 70%;
+    
+    padding: .5rem;
+
+}
+.ping_containerr{
+  display: flex;
+  flex-direction: column-reverse;
+padding: .5rem;
+/* gap: 1.0rem; */
+}
+.ping_img img{
+  width: 90%;
+  height: 90%;
+}
+
+
+}
+@media only screen and (min-width:301px) and (max-width:401px){
+  .hrping_container{
+    width: 75%;
+    height: 60%;
+    
+    padding: 1rem;
+
+}
+.ping_containerr{
+  display: flex;
+  flex-direction: column-reverse;
+padding: .5rem;
+/* gap: .5rem; */
+}
+
+}
+
+@media only screen and (min-width:201px) and (max-width:301px){
+  .hrping_container{
+    width: 80%;
+    height: 48%;
+    
+    padding: 1rem;
+
+}
+.ping_containerr{
+  display: flex;
+  flex-direction: column-reverse;
+padding: .5rem;
+/* gap: .5rem; */
+}
+
+}

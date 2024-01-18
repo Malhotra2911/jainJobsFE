@@ -1,0 +1,118 @@
+.emp_cont_main{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.7);
+
+
+}
+.employment_cont{
+    width: 50%;
+    height: 80%;
+    top:10%;
+    left: 25%;
+    position: fixed;
+    background-color: white;
+    background-image: linear-gradient(to right bottom, #FFFFFF, rgba(21, 185, 184, 0.6));
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 12px;
+
+
+}
+
+.employment_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.Employment{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Employment h2{
+    text-align: center;
+}
+.Emp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 5%;
+}
+.Employment-Type{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.Employment-Type p{
+   color: #898787;
+   justify-content: flex-start; 
+   margin: 0;
+}
+.Employment-Type_input{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.button_emp_ss{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 3rem;
+}
+.btn_emp_ss{
+    width: 15%;
+    border: none;
+    background: #F7701D;
+    border-radius: 4px;
+    padding: .4rem;
+    color: #ffff;
+}
+@media only screen  and (max-width: 1024px) {
+    .employment_cont{
+        width: 90%;
+      }  
+     
+}
+@media only screen  and (max-width: 650px) {
+  .employment_cont{
+    width: 90%;
+  } 
+  .Employment{
+    padding: 0rem;
+  } 
+  .FML-Name{
+    gap: 0;
+  }
+  .btn_emp_ss{
+    width: 25%;
+    padding: .6rem;
+  }
+}

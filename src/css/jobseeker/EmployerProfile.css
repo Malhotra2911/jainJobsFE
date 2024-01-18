@@ -1,0 +1,183 @@
+.useprofile_container {
+  display: flex;
+  flex-direction: row;
+}
+.Profile_Form_content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+.EmployerProfileForm {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+  background: #FFFFFF;
+  align-items: center;
+  height: 75vh;
+  overflow-y: scroll;
+
+}
+.EmployerProfile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.employer_main_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.label_box {
+  width: 70%;
+}
+.label_name {
+  width: 60%;
+  font-weight: 600;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.profile_employer_data {
+  margin-left: 10%;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px;
+  color: #898787;
+}
+.profile_box{
+    background-image: url("../../../public/employer/background.jpeg");
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.profile-img {
+  width: 100%;
+  display: flex;
+  border: 3px solid green;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0rem;
+  z-index: 0;
+}
+.profile_icon {
+  border: 3px solid orange;
+  transform: scale(5);
+}
+.profile-img .file {
+  width: 15%;
+  color: transparent;
+  cursor: pointer;
+  opacity: 0;
+  margin: -6.26rem 0rem 0rem 1.3rem;
+}
+
+.profile-img img {
+  width: 10%;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 0;
+}
+.profile-img .cam {
+  position: relative;
+  bottom: 3rem;
+  margin: 1rem 0rem 0rem 3.6rem;
+  color: rgb(46, 45, 45);
+}
+.form textarea::placeholder {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.address {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.address label {
+  margin-left: -13rem;
+  margin-top: -0.2rem;
+  font-weight: 600;
+}
+.upload {
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.3rem;
+  border: 1px dashed #f7701d;
+  width: 60%;
+  height: 5rem;
+  font-size: 1.3rem;
+  color: #000000;
+  cursor: pointer;
+}
+.file_upload_icon {
+  color: #f7701d;
+  transform: scale(1.6);
+  margin-right: 0.8rem;
+}
+.upload input {
+  visibility: hidden;
+}
+.form p {
+  text-align: center;
+  font-size: 18px;
+  margin: 0%;
+}
+.create {
+  width: 60%;
+  padding: 1rem;
+  background: rgba(247, 112, 29, 0.39);
+  font-family: "Poppins";
+  font-size: x-large;
+  font-weight: 600;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+.profile-img input {
+  visibility: none;
+}
+.Save {
+  width: 60%;
+  padding: 1rem;
+  background: rgba(247, 112, 29, 0.39);
+  font-family: "Poppins";
+  font-size: x-large;
+  font-weight: 600;
+  color: #000000;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 580px) {
+  .EmployerProfileForm{
+    width: 90%;
+    position: fixed;
+    top: 12%;
+    bottom: 10%;
+    height: auto;
+  }
+  .Profile_Form_content{
+    align-items: center;
+  }
+  
+}
+

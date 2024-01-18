@@ -1,0 +1,332 @@
+.filter_container{
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:30%;
+    z-index: 999;
+    border: none;
+    /* border: 2px solid yellow; */
+    font-family: Poppins,sans-serif;
+    /* margin: auto; */
+    /* margin: 1rem 0rem 0rem 15rem; */
+    /* background: rgba(32,32,32,.6); */
+    
+}
+.usefilter_form_container{
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+     /* justify-content: center;  */
+     /* align-items: center;  */
+    background: #ffffff;
+    /* margin: auto; */
+    font-family: Poppins,sans-serif;
+/* border: 2px solid black; */
+}
+.TitleCloseBtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    /* margin:0rem 1rem 1rem 0rem ; */
+    /* border: 2px solid red; */
+    /* padding: .5rem; */
+  }
+  .TitleCloseBtn button{
+    background: none;
+    border: none;
+    color: #fff;
+    margin-right: .5rem;
+    background: transparent;
+    border: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  
+    
+  }
+
+.usefilter_form_content{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+}
+.usefilter_header{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid purple; */
+
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem;
+    background: rgba(140,221,220,0.3);
+    box-shadow: 0px 4px 10px rgba(140,221,220,0.5);
+    /* background: url(../../assets/filterheader.png);
+    background-repeat: no-repeat; */
+}
+.usefilter_header .filterhead{
+    font-size: 17px;
+}
+.usefilter_header .filtericon{
+    /* width: 7%;
+    height: 40%; */
+    margin-top: .7rem;
+    transform: scale(1.3);
+    /* height: 50%; */
+}
+.usefilter_header .skip_btn{
+    border: none;
+    background: none;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 18px;
+}
+.UF_form_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    /* margin-top: -1rem; */
+}
+.form_container_body{
+    width: 100%;
+    /* margin-top: -1rem; */
+
+
+}
+.form_container_footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 5rem; */
+    margin-top: 1rem;
+}
+.label_textsalary{
+  font-size: 15px;
+  margin-left: 1rem; 
+  color: #898787; 
+
+}
+.form_container_footer .form_btn{
+    width: 29%;
+    background: rgba(140,221,220,0.5);
+    border-radius: 7px;
+    border: none;
+    padding: .6rem;
+    cursor: pointer;
+}
+@media only screen and (min-width: 200px) and (max-width: 400px) {
+    .filter_container{
+        width: 85%;
+        height: 100%;
+       left:8%;
+       top:-2rem; 
+    }
+    .usefilter_header .filterhead{
+        font-size: 17px;
+    }
+
+    .form_container_footer .form_btn{
+        padding: .3rem;
+        margin-bottom:.8rem;
+    }
+    
+
+}
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+    .filter_container{
+        width: 85%;
+        height: 90%;
+       left:8%;
+       top:-2rem; 
+    }
+    .usefilter_header .filterhead{
+        font-size: 18px;
+    }
+    .form_container_footer .form_btn{
+        padding: .3rem;
+        margin-bottom: .7rem;
+    }
+    .UF_form_container{
+        margin-top: -1rem;
+    }
+
+}
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .filter_container{
+        width: 85%;
+        height: 80%;
+       left:8%;
+       top:-2rem; 
+    }
+    .form_container_footer .form_btn{
+        padding: .6rem;
+        margin-bottom: .3rem;
+    }
+    .UF_form_container{
+        margin-top: -1rem;
+    }
+    .usefilter_header .filterhead{
+        font-size: 25px;
+    }
+    .usefilter_header .skip_btn{
+        font-size: 22px;
+    }
+    .usefilter_header .filtericon{
+        /* width: 7%;
+        height: 40%; */
+        transform: scale(1.5);
+        /* height: 50%; */
+    }
+    
+
+
+
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .filter_container{
+        width: 85%;
+        height: 80%;
+       left:8%;
+    }
+    .usefilter_header .filterhead{
+        font-size: 25px;
+    }
+    .usefilter_header .skip_btn{
+        font-size: 22px;
+    }
+    .usefilter_header .filtericon{
+        /* width: 7%;
+        height: 40%; */
+        transform: scale(1.5);
+        /* height: 50%; */
+    }
+    
+
+    .form_container_footer .form_btn{
+        padding: .6rem;
+        margin-top: .3rem;
+    }
+}
+@media only screen and (min-width: 1001px) and (max-width: 1250px) {
+    .filter_container{
+        width: 60%;
+        height: 100%;
+       left:18%;
+       top:-2.3rem; 
+    }
+    .form_container_footer .form_btn{
+        padding: .3rem;
+        margin-bottom: .6rem;
+    }
+    .UF_form_container{
+        margin-top: -.7rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1350px) {
+    .filter_container{
+        width: 60%;
+        height: 100%;
+       left:21%;
+       top:-1.5rem; 
+       /* border: 2px solid red; */
+    }
+    .form_container_footer .form_btn{
+        padding: .3rem;
+        margin-bottom: .6rem;
+    }
+    .UF_form_container{
+        margin-top: -.7rem;
+    }
+
+
+}
+
+/* @media only  screen and (max-width:600px){
+.filter_container{
+    width: 85%;
+    height: 85%;
+   left:8%; 
+}
+.form_container_footer .form_btn{
+    padding: .3rem;
+}
+} */
+/* @media only  screen and (max-width:900px){
+    .filter_container{
+        width: 85%;
+        height: 100%;
+       left:8%; 
+    }
+    }
+    @media only  screen and (max-width:1100px){
+.filter_container{
+    width: 55%;
+    height: 100%;
+   left:28%; 
+
+}
+
+
+        .usefilter_form_container{
+    width: 100%;
+    height: 97%;
+}
+.filter_container{
+    margin-top: -1rem;
+}
+
+
+.form_container_footer .form_btn{
+    padding: .2rem;
+    margin-bottom: .5rem;
+}
+
+.UF_form_container{
+    margin-top: -1rem;
+}
+    }
+    @media only  screen and (max-width:1300px){
+        .filter_container{
+            width: 55%;
+            height: 90%;
+           left:28%; 
+        
+        }
+        
+        
+                .usefilter_form_container{
+            width: 100%;
+            height: 95%;
+        }
+        .filter_container{
+            margin-top: -1rem;
+        }
+        
+        
+        .form_container_footer .form_btn{
+            padding: .4rem;
+        }
+        
+        .UF_form_container{
+            margin-top: -1rem;
+        }
+            } */

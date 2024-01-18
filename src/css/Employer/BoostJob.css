@@ -1,0 +1,99 @@
+.BoostJob{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0%;
+    left:0rem;
+    z-index: 999;
+    margin: auto;
+    background: rgba(32,32,32,.7);
+}
+.boostjob{
+    width: 50%;
+    height: 80%;
+background-image: url("../../../public/employer/background.jpeg");
+background-repeat: no-repeat;
+background-position: top right;
+background-size: 50vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 12px;
+
+
+}
+.boostjob_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.BoostJob .Boost-Date-time{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+.Boost-Date-time input{
+    width: 350px;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+}
+.Boost-Date-time input::placeholder{
+    -webkit-text-size-adjust: 2rem;
+}
+.boostjob .Boost-loc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.boostjob .Boost-loc select{
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    /* -webkit-appearance: none; */
+}
+.boostjob .Boost-Time{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.Boost-Time input{
+    width: 355px;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #F7701D;
+    -webkit-appearance: none;
+    font-size: larger;
+}
+.boostjob .Submit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Submit button{
+    background-color: rgba(247, 112, 29, 0.39);
+    width: 380px;
+    height: 52px;
+    border: none;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
